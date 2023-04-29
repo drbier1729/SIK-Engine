@@ -1,0 +1,42 @@
+{
+  "Name": "GenericCarEnemy",
+  "Components": {
+    "Transform": {
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "RigidBody": {
+      "position": [ 20.0, 1.0, 20.0 ],
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "car.fbx",
+      "material": "car.mat"
+    },
+    "GenericCarEnemy": {
+      "max_forward_speed": 1500.0,
+      "max_reverse_speed": 1000.0,
+      "max_angular_speed": 20.0,
+      "aggro_radius": 50.0,
+      "damage": 1,
+      "destroy_vel_threshold": 5.0,
+      "enemy_type": "SmallCar"
+    },
+    "Behaviour": {
+      "scripts": [
+        "generic_car_enemy.lua"
+      ]
+    },
+    "Health": {
+      "hp_max": 3
+    }
+  }
+}

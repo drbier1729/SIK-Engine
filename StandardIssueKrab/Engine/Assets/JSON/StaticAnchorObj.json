@@ -1,0 +1,17 @@
+{
+  "Name": "StaticBox",
+  "Components": {
+    "RigidBody": {
+      "position": [ -60.0, 10.0, -60.0 ],
+      "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+      "motion_type": "Static",
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005
+    },
+    "MeshRenderer": {
+      "mesh": "Cube",
+      "material": "solid_red.mat"
+    }
+  }
+}

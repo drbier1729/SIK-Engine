@@ -1,0 +1,19 @@
+In Debug Build:
+    F1 -> toggle scene editor
+    F2 -> toggle edit mode
+    F3 -> toggle camera settings in editor
+    F6 -> fullscreen
+
+In All Builds:
+    `   -> Toggle Cheat Mode
+    ESC -> Pause Game
+    DEL -> Quit Game
+
+When Cheat Mode is Active:
+    1 -> Toggle Invincibility
+    2 -> Kill Player
+    3 -> Skip to Game End (NOT IMPLEMENTED)
+    4 -> Restart Game
+    5 -> Toggle Collisions
+    6 -> Toggle Physics Debug Drawing
+    7 -> Toggle Mouse Cursor

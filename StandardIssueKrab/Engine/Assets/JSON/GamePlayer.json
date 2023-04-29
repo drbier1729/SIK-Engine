@@ -1,0 +1,52 @@
+{
+  "Name": "GamePlayer",
+  "Components": {
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [ 1.215, 0.895, 1.845 ],
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "car.fbx",
+      "material": "car.mat"
+    },
+    "CarController": {
+      "speed": 2200.0,
+      "reverse_speed": 3000.0,
+      "angular_speed": 40.0,
+      "action_map_string": "GamePlayerControls.json"
+    },
+    "Behaviour": {
+      "scripts": [
+        "car_script.lua",
+        "magnet_script.lua"
+      ]
+    },
+    "Health": {
+      "hp_max": 50
+    },
+    "Inventory": {
+      "MaxSize": 200
+    },
+    "FollowCam": {
+      "static_follow": false,
+      "leash_radius": 50.0,
+      "camera_speed": 40,
+      "default_zoom": 30.0
+    },
+    "PlayerCharacter": {},
+    "ObjectHolder": {}
+  }
+}

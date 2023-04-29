@@ -1,0 +1,5 @@
+{
+  "base_color_texture": "cracks.png",
+  "emission": [ 0.0, 0.95, 0.2 ],
+  "shader": "lit"
+}

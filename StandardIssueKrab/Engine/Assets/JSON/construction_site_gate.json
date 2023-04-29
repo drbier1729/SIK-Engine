@@ -1,0 +1,44 @@
+{
+    "Name": "construction_site_gate",
+    "Components": {
+    "Transform":{
+    "position": [
+        1.197745120862237e-07,
+        0.13278983533382416,
+        1.819902777671814
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "construction_site_gate.fbx",
+    "material": "muscle_beach_props_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        1.197745120862237e-07,
+        0.13278983533382416,
+        1.819902777671814
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        0.4326930046081543,
+        1.819902777671814,
+        15.462331771850586
+    ],
+    "motion_type": "Static"
+}
+    }
+}

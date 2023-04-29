@@ -1,0 +1,17 @@
+{
+  "Name": "FloorObject",
+  "Components": {
+    "Transform": {
+      "orientation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [ 10, 10, 10]
+    },
+    "MeshRenderer": {
+      "mesh": "Plane",
+      "material": "textured_ground.mat"
+    }
+  }
+}

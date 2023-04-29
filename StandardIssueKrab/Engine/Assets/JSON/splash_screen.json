@@ -1,0 +1,20 @@
+{
+  "SIK": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "team_frame.png"
+  },
+  "FMOD": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "FMOD_Logo_White_Black_Background.png"
+  },
+  "DigiPen": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "DigiPen_RGB_White.png"
+  }
+}

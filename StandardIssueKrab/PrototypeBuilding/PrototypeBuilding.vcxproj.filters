@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeInterface.cpp" />
+    <ClCompile Include="Destroyable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeBuilding.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{257f7653-31fe-4259-9bc4-943174fad1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{8091bcd6-2fc1-4737-8e3d-e03148176fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype">
+      <UniqueIdentifier>{bfdb6b70-2a4d-45ce-a33c-0d9b05ceadc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActionMaps">
+      <UniqueIdentifier>{f2639b09-0d4e-4d07-87d0-3511280ec9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{2799bb0b-8f6e-4f24-a5d1-58162733364f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PrototypeBuilding.h">
+      <Filter>Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BuildingComponents.x">
+      <Filter>Components</Filter>
+    </None>
+    <None Include="..\Engine\Assets\JSON\building_camera_controls.json">
+      <Filter>ActionMaps</Filter>
+    </None>
+    <None Include="..\Engine\Assets\JSON\building_prototype_controls.json">
+      <Filter>ActionMaps</Filter>
+    </None>
+  </ItemGroup>
+</Project>

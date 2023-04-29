@@ -1,0 +1,7 @@
+{
+  "diffuse": [ 0.7, 0.7, 0.7 ],
+  "specular": [ 0.3, 0.3, 0.3 ],
+  "glossiness": 0.1,
+  "base_color_texture": "tutorial_ground.png",
+  "shader": "lit"
+}

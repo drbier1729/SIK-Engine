@@ -1,0 +1,10 @@
+{
+  "ACTION_1": {
+    "Keyboard": 27,
+    "Controller": 0
+  },
+  "ACTION_2": {
+    "Keyboard": 44,
+    "Controller": 1
+  }
+}

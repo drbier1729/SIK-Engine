@@ -1,0 +1,39 @@
+{
+    "Name": "turret_base",
+    "Components": {
+    "Transform":{
+    "position": [
+        5.794896118516135e-09,
+        0.0,
+        0.30688798427581787
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "turret_base.fbx",
+    "material": "nailgun_turret_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        5.794896118516135e-09,
+        0.0,
+        0.30688798427581787
+    ],
+    "aabb_halfwidths": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "motion_type": "Static"
+}
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Name": "tire",
+    "Components": {
+    "Transform":{
+    "position": [
+        -1.043081283569336e-07,
+        -2.384185791015625e-07,
+        0.25
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "tire.fbx",
+    "material": "tire_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        -1.043081283569336e-07,
+        -2.384185791015625e-07,
+        0.25
+    ],
+    "aabb_halfwidths": [
+        0.75,
+        0.25,
+        0.75
+    ],
+    "motion_type": "Static"
+}
+    }
+}

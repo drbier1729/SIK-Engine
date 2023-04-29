@@ -1,0 +1,8 @@
+{
+  "Name": "BehaviourObject1",
+  "Components": {
+    "Behaviour": {
+      "script_name": "test_script.lua"
+    }
+  }
+}

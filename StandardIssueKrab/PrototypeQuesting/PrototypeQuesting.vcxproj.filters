@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeInterface.cpp" />
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeCombat.cpp" />
+    <ClCompile Include="Attachment.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFollow.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{5e6037c0-f043-4707-a0b6-9b7d6be64969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{372dcb8e-ef56-4115-8da2-7e76de7c54b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PrototypeCombat.h" />
+    <ClInclude Include="Attachment.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFollow.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CombatComponents.x">
+      <Filter>Components</Filter>
+    </None>
+  </ItemGroup>
+</Project>

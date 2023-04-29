@@ -1,0 +1,44 @@
+{
+    "Name": "junk_car_pile_large",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.04358053207397461,
+        1.7926836013793945
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "junk_car_pile_large.fbx",
+    "material": "junk_car_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        0.0,
+        0.04358053207397461,
+        1.7926836013793945
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.0,
+        1.7926836013793945,
+        3.4400243759155273
+    ],
+    "motion_type": "Static"
+}
+    }
+}

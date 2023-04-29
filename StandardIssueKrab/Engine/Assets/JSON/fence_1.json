@@ -1,0 +1,39 @@
+{
+    "Name": "fence_1",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        1.7803468704223633
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "fence_1.fbx",
+    "material": "fence_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        0.0,
+        0.0,
+        1.7803468704223633
+    ],
+    "aabb_halfwidths": [
+        0.1706886887550354,
+        1.7803468704223633,
+        4.437575817108154
+    ],
+    "motion_type": "Static"
+}
+    }
+}

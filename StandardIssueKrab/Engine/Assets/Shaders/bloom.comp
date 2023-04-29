@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////
+// Compute shader for bloom
+////////////////////////////////////////////////////////////////////////
+#version 430
+
+// Declares thread group size
+layout (local_size_x = 1, local_size_y = 1, local_size_z = 1) in;
+
+//src image as 4 channel 32bit float readonly
+uniform sampler2D input_buffer;
+
+// dst image as 1 channel 32bit float writeonly
+layout (rgba32f) uniform writeonly image2D dst;
+
+uniform uint width, height;
+uniform float bloom_threshold;
+
+void main() {
+
+	// Combo of groupID, groupSize and localID
+	ivec2 gpos = ivec2(gl_GlobalInvocationID.xy); 
+    vec2 uv = vec2(gpos.x, gpos.y) / vec2(width, height);
+    
+    vec4 frag_color = texture(input_buffer, uv);
+    float luminance = dot(frag_color.rgb, vec3(0.2126, 0.7152, 0.0722));
+    vec4 out_color;
+	if (luminance > bloom_threshold)
+		out_color = frag_color;
+	else
+        out_color = vec4(vec3(0.0f), 1.0f);
+
+	imageStore(dst, ivec2(gl_GlobalInvocationID.xy), out_color); // Write to destination image
+}

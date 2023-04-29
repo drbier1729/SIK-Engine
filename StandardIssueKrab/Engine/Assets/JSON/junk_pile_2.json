@@ -1,0 +1,25 @@
+{
+    "Name": "junk_pile_2",
+    "Components": {
+    "Transform":{
+    "position": [
+        -106.71366882324219,
+        46.75236892700195,
+        0.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        0.5,
+        0.5,
+        0.5
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "junk_pile_2.fbx",
+    "material": "junk_pile_mat.mat"
+}    }
+}

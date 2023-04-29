@@ -1,0 +1,267 @@
+{
+  "Audio": {
+    "background.mp3": {
+      "is_stream": false,
+      "tag": "CONSBACK"
+    },
+
+    "revving.wav": {
+      "is_stream": false,
+      "tag": "REVVING"
+    },
+
+    "skid.mp3": {
+      "is_stream": false,
+      "tag": "SKID"
+    },
+
+    "impact.mp3": {
+      "is_stream": false,
+      "tag": "IMPACT"
+    },
+
+    "turret_impact.mp3": {
+      "is_stream": false,
+      "tag": "TURRET_IMP"
+    },
+
+    "turret_destroyed.mp3": {
+      "is_stream": false,
+      "tag": "TURRET_DES"
+    },
+
+    "nail_shoot.mp3": {
+      "is_stream": false,
+      "tag": "NAIL_SHOOT"
+    },
+
+    "menubackground.mp3": {
+      "is_stream": false,
+      "tag": "MENU_BACK"
+    },
+
+    "transition_effect.wav": {
+      "is_stream": false,
+      "tag": "TRANSITION_SFX"
+    },
+
+    "collectible_sfx.mp3": {
+      "is_stream": false,
+      "tag": "COLLECTIBLE"
+    },
+
+    "magnet_release.mp3": {
+      "is_stream": false,
+      "tag": "MAGSHOOT"
+    },
+
+    "magnet_loaded.mp3": {
+      "is_stream": false,
+      "tag": "MAGLOAD"
+    },
+
+    "intro_arena_background.mp3": {
+      "is_stream": false,
+      "tag": "INTROBACK"
+    },
+
+    "button_hover_sfx.mp3": {
+      "is_stream": false,
+      "tag": "BUTTON_HOVER"
+    },
+
+    "button_click_sfx.mp3": {
+      "is_stream": false,
+      "tag": "BUTTON_CLICK"
+    },
+
+    "button_click_disabled_sfx.mp3": {
+      "is_stream": false,
+      "tag": "BUTTON_DISABLED_CLICK"
+    },
+
+    "junk_back.mp3": {
+      "is_stream": false,
+      "tag": "JUNKBACK"
+    },
+
+    "beach_back.mp3": {
+      "is_stream": false,
+      "tag": "BEACHBACK"
+    },
+
+    "tutorial_back.mp3": {
+      "is_stream": false,
+      "tag": "TUTBACK"
+    }
+  },
+
+  "JSON": [
+    "GamePlayerControls.json",
+    "GamePlayerTwoControls.json",
+    "ChainAnchor.json",
+    "ChainLink.json",
+    "ChainSegment.json",
+    "CollectableObject.json",
+    "CraneEnemy.json",
+    "Debris.json",
+    "GameBoxAnchored.json",
+    "GameBoxMetal.json",
+    "GameBoxTutorial.json",
+    "GamePlayer.json",
+    "GamePlayerTwo.json",
+    "GenericCarEnemy.json",
+    "Magnet.json",
+    "StaticAnchorObj.json",
+    "TurretBase.json",
+    "TurretEnemy.json",
+    "WreckingBall.json",
+    "PlayerObjectScene.json",
+    "ConstructionArena.json",
+    "VersusScene.json",
+    "MuscleBeachArena.json",
+    "MuscleBeachArenaDebug.json",
+    "JunkyardScene.json",
+    "splash_screen.json",
+    "start_menu.json",
+    "pause_menu.json",
+    "HUD.json",
+    "garage_HUD_begin.json",
+    "load_fade.json",
+    "credits_screen.json",
+    "CheatsHUD.json",
+    "quit_confirmation.json",
+    "tutorial_gui.json"
+  ],
+
+  "ShaderPrograms": [
+    "lit",
+    "background",
+    "debug",
+    "gui",
+    "particles",
+    "shadow",
+    "skydome",
+    "buffer_output",
+    "normals",
+    "model",
+    "ggx_brdf",
+    "phong",
+    "blinn_phong",
+    "geo_particles",
+    "local_lights"
+  ],
+
+  "Textures": [
+    "goose.jpg",
+    "DigiPen_RGB_White.png",
+    "turret_base_color.png",
+    "crane_tower_base_color.png",
+    "construction_prop_mat.png",
+    "dirt_02.png",
+    "smoke_01.png",
+    "scorch_03.png",
+    "crate1_diffuse.jpg",
+    "crate1_normal.jpg",
+    "car_tex.png",
+    "Enemies_icon.png",
+    "SmallCarEnemies_icon.png",
+    "BigCarEnemies_icon.png",
+    "Destructibles_icon.png",
+    "flame_particle.png",
+    "Heart.png",
+    "Heart_flash.png",
+    "metall010-new-tileable-bar.jpg",
+    "metall010-new-tileable-bar_normal.jpg",
+    "construction_prop_mat.png",
+    "crane_tower_base_color.png",
+    "Resource.png",
+    "garage_mat.png",
+    "LoadScreen.png",
+    "junkyard_dirt.png",
+    "menu_frame.png",
+    "credits_1.png",
+    "credits_2.png",
+    "credits_3.png",
+    "credits_4.png",
+    "junkyard_props.png",
+    "FMOD_Logo_White_Black_Background.png",
+    "confirm_quit.png",
+    "confirm_quit_button.png",
+    "confirm_quit_button_high.png",
+    "instructions_movement_keyboard.png",
+    "instructions_movement_controller.png",
+    "instructions_drift_keyboard.png",
+    "instructions_drift_controller.png",
+    "instructions_boxes.png",
+    "instructions_enemy.png",
+    "instructions_health.png",
+    "instructions_garage_keyboard.png",
+    "instructions_garage_controller.png",
+    "instructions_upgrade.png",
+    "instructions_magnet_keyboard.png",
+    "instructions_magnet_controller.png",
+    "muscle_car_diffuse.png",
+    "arena_unlocked.png",
+    "game_completed.png",
+    "team_frame.png"
+  ],
+
+  "Models": [
+    "compass.fbx",
+    "waypoint.fbx",
+    "car.fbx",
+    "car_dmg_10.fbx",
+    "car_dmg_33.fbx",
+    "car_dmg_66.fbx",
+    "muscle_car.fbx",
+    "muscle_car_dmg_0.fbx",
+    "muscle_car_dmg_50.fbx",
+    "monster_truck.fbx",
+    "monster_truck_dmg_0.fbx",
+    "monster_truck_dmg_50.fbx",
+    "turret_top.fbx",
+    "turret_top_dmg_50.fbx",
+    "turret_top_dmg_0.fbx",
+    "turret_base.fbx",
+    "crane_tower.fbx",
+    "crane_arm.fbx",
+    "barrier.fbx",
+    "pipes.fbx",
+    "street_straight.fbx",
+    "street_4_way.fbx",
+    "street_t.fbx",
+    "garage.fbx",
+    "junk_car_pile_small.fbx",
+    "junk_car_pile_med.fbx",
+    "junk_car_pile_large.fbx",
+    "tire.fbx",
+    "tire_stack_2.fbx",
+    "tire_stack_3.fbx",
+    "tire_stack_4.fbx",
+    "tire_stack_5.fbx",
+    "fence_1.fbx",
+    "fence_2.fbx",
+    "junkyard_ground.fbx",
+    "junk_pile.fbx",
+    "garage_exterior.fbx",
+    "magnet_object.fbx",
+    "anchor.fbx",
+    "beach_fence_short.fbx",
+    "beach_fence_long.fbx",
+    "palm_tree.fbx",
+    "dumbell.fbx",
+    "barbell_plate.fbx",
+    "garage_sign_right.fbx",
+    "garage_sign_left.fbx",
+    "parking_lot.fbx",
+    "parking_line.fbx",
+    "beach_sand.fbx",
+    "beach_water.fbx",
+    "beach_gate.fbx",
+    "iron_fence.fbx",
+    "boardwalk.fbx",
+    "construction_ground.fbx",
+    "construction_site_gate.fbx"
+  ]
+}

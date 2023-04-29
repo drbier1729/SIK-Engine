@@ -1,0 +1,54 @@
+{
+    "Name": "barbell_plate",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        10.0,
+        0.15121471881866455
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "barbell_plate.fbx",
+    "material": "muscle_beach_props_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        0.0,
+        10.0,
+        0.15121471881866455
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.0,
+        0.15121471881866455,
+        1.0
+    ],
+    "motion_type": "Dynamic",
+    "mass": 500.0,
+    "gravity_scale": 1.0,
+    "linear_damping": 0.005,
+    "friction": 0.2,
+    "restitution": 0.5
+},
+    "MetalBox": {},
+    "Debris": {
+      "chase_speed": 10.0,
+      "max_chase_dist": 15.0
+}
+    }
+}

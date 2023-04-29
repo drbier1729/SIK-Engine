@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DTBB", "DTBB\DTBB.vcxproj", "{B15AA940-802B-4901-8D1E-56E99F293182}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D} = {3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\StandardIssueKrab\Engine\Engine.vcxproj", "{3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E22D7053-5DC2-41F1-BB75-841C10673B31} = {E22D7053-5DC2-41F1-BB75-841C10673B31}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua", "..\StandardIssueKrab\Lua\Lua.vcxproj", "{E22D7053-5DC2-41F1-BB75-841C10673B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15AA940-802B-4901-8D1E-56E99F293182}.Debug|x64.ActiveCfg = Debug|x64
+		{B15AA940-802B-4901-8D1E-56E99F293182}.Debug|x64.Build.0 = Debug|x64
+		{B15AA940-802B-4901-8D1E-56E99F293182}.Release|x64.ActiveCfg = Release|x64
+		{B15AA940-802B-4901-8D1E-56E99F293182}.Release|x64.Build.0 = Release|x64
+		{3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D}.Debug|x64.ActiveCfg = Debug|x64
+		{3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D}.Debug|x64.Build.0 = Debug|x64
+		{3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D}.Release|x64.ActiveCfg = Release|x64
+		{3D48C3A3-0A86-4F06-B0E7-3E0B3A6FE09D}.Release|x64.Build.0 = Release|x64
+		{E22D7053-5DC2-41F1-BB75-841C10673B31}.Debug|x64.ActiveCfg = Debug|x64
+		{E22D7053-5DC2-41F1-BB75-841C10673B31}.Debug|x64.Build.0 = Debug|x64
+		{E22D7053-5DC2-41F1-BB75-841C10673B31}.Release|x64.ActiveCfg = Release|x64
+		{E22D7053-5DC2-41F1-BB75-841C10673B31}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {365133C5-CAAF-4251-9239-7C0B5AAA5888}
+	EndGlobalSection
+EndGlobal

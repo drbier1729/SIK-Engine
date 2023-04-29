@@ -1,0 +1,29 @@
+{
+  "Name": "CollectableObj",
+  "Components": {
+    "Transform": {
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "RigidBody": {
+      "scale": [ 0.25, 0.25, 0.25 ],
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [ 0.5, 0.5, 0.5 ],
+      "is_trigger": true,
+      "mass": 1000.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.01
+    },
+    "MeshRenderer": {
+      "mesh": "Sphere",
+      "material": "textured_collectable.mat"
+    },
+    "Collectable": {
+      "Type": "Resource1"
+    },
+    "Behaviour": {
+      "scripts": [
+        "collectable_obj.lua"
+      ]
+    }
+  }
+}

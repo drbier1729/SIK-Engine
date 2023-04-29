@@ -1,0 +1,39 @@
+{
+    "Name": "tire_stack_5",
+    "Components": {
+    "Transform":{
+    "position": [
+        1.6391277313232422e-07,
+        -0.5059001445770264,
+        0.9549505114555359
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "tire_stack_5.fbx",
+    "material": "tire_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        1.6391277313232422e-07,
+        -0.5059001445770264,
+        0.9549505114555359
+    ],
+    "aabb_halfwidths": [
+        0.7571576833724976,
+        1.0450494289398193,
+        1.2559001445770264
+    ],
+    "motion_type": "Static"
+}
+    }
+}

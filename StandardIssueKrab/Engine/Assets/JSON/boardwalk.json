@@ -1,0 +1,44 @@
+{
+    "Name": "boardwalk",
+    "Components": {
+    "Transform":{
+    "position": [
+        3.0763871450290026e-08,
+        -2.404791530352668e-07,
+        5.182848930358887
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "boardwalk.fbx",
+    "material": "muscle_beach_props_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        3.0763871450290026e-08,
+        -2.404791530352668e-07,
+        5.182848930358887
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        5.0,
+        5.182848930358887,
+        9.70354175567627
+    ],
+    "motion_type": "Static"
+}
+    }
+}

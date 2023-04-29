@@ -1,0 +1,30 @@
+{
+  "Name": "BuildingObj_Player",
+  "Components": {
+    "RigidBody": {
+      "position": [ 0.0, 10.0, 0.0 ],
+      "motion_type": "Dynamic",
+
+      "use_aabb_as_collider": true,
+
+      "aabb_halfwidths": [ 1.0, 0.5, 1.0 ],
+      "mass": 300.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.004
+    },
+
+    "MeshRenderer": {
+      "mesh": "car.fbx",
+      "material": "car.mat"
+    },
+    "Behaviour": {
+      "scripts": [
+        "building_player_script.lua"
+      ]
+    },
+    "Inventory": {
+      "MaxSize": 5
+    },
+    "PlayerController": {}
+  }
+}

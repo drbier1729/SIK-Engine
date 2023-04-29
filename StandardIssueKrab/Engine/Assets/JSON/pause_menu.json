@@ -1,0 +1,47 @@
+{
+  "TransparentPanel": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Color": [ 0, 0, 0, 75 ],
+    "Embedded": {
+      "MenuPanel": {
+        "Type": "PANEL",
+        "Coords": [ 365, 210 ],
+        "Dimensions": [ 550, 300 ],
+        "Color": [ 43, 22, 125, 255 ],
+        "Texture": "pause_menu_1.png",
+        "Embedded": { 
+          "ResumeButton": {
+            "Type": "BUTTON",
+            "Coords": [ 221, 165 ],
+            "Dimensions": [ 110, 36 ],
+            "Color": [ 15, 11, 194, 255 ],
+            "Texture": "resume_button.png",
+            "AltTexture": "resume_button_high.png",
+            "Behaviour": {
+              "scripts": [
+                "button_resume.lua"
+              ]
+            },
+            "Highlighted_index": [ 0, 0 ]
+          },
+          "QuitButton": {
+            "Type": "BUTTON",
+            "Coords": [ 221, 218 ],
+            "Dimensions": [ 110, 36 ],
+            "Color": [ 15, 11, 194, 255 ],
+            "Texture": "menu_button.png",
+            "AltTexture": "menu_button_high.png",
+            "Behaviour": {
+              "scripts": [
+                "button_menu.lua"
+              ]
+            },
+            "Highlighted_index": [ 1, 0 ]
+          }
+        }
+      }
+    }
+  }
+}

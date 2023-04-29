@@ -1,0 +1,26 @@
+{
+  "Credits4": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "credits_4.png"
+  },
+  "Credits3": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "credits_3.png"
+  },
+  "Credits2": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "credits_2.png"
+  },
+  "Credits1": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Texture": "credits_1.png"
+  }
+}

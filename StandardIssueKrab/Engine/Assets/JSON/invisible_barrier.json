@@ -1,0 +1,40 @@
+{
+    "Name": "invisible_barrier",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        83.48211669921875,
+        0.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "RigidBody":{
+    "position": [
+        0.0,
+        83.48211669921875,
+        0.0
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        155.13418579101562,
+        8.00987720489502,
+        1.0
+    ],
+    "motion_type": "Static"
+}
+    }
+}

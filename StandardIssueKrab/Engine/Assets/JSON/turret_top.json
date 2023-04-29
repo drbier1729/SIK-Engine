@@ -1,0 +1,25 @@
+{
+    "Name": "turret_top",
+    "Components": {
+    "Transform":{
+    "position": [
+        5.4016709327697754e-08,
+        3.5762786865234375e-07,
+        1.5971640348434448
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "turret_top.fbx",
+    "material": "nailgun_turret_mat.mat"
+}    }
+}

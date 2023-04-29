@@ -1,0 +1,32 @@
+{
+  "Name": "PlayerObj",
+  "Children": {
+
+  },
+
+  "Components": {
+    "TestComp": {},
+    "RigidBody": {
+      "position": [ 0.0, 10.5, 0.0 ],
+      "aabb_halfwidths": [ 0.25, 0.25, 0.25 ],
+      "motion_type": "Dynamic",
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "Transform": {
+      "position": [0.0, 10.5, 0.0],
+      "orientation": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+
+    "MeshRenderer": {
+      "mesh": "car.fbx",
+      "material": "car.mat"
+    },
+
+    "DrivingCameraFollow": {}
+  }
+}

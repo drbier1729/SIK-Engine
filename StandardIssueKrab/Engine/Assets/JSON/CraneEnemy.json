@@ -1,0 +1,19 @@
+{
+  "Name": "CraneEnemy",
+  "Components": {
+    "Transform": {
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "MeshRenderer": {
+      "mesh": "crane_arm.fbx",
+      "material": "crane_arm.mat"
+    },
+    "CraneEnemy": {},
+    "Attachment": {
+      "attached_to": "<NO NAME>",
+      "follow": true,
+      "lock_orientation": false,
+      "pos_offset": [ 0.0, 5.5, 0.0 ]
+    }
+  }
+}

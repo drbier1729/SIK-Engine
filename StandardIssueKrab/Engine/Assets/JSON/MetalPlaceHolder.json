@@ -1,0 +1,21 @@
+{
+  "Name": "metalPH",
+  "Components": {
+    "RigidBody": {
+      "position": [ -5.0, 5.0, 0.0 ],
+      "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+      "motion_type": "Dynamic",
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005
+    },
+    "MeshRenderer": {
+      "mesh": "Cube",
+      "material": "metal_ph.mat"
+    },
+    "Destroyable": {
+      "AltTexture": "some_tex.png",
+      "destroy_momentum": 1200.0
+    }
+  }
+}

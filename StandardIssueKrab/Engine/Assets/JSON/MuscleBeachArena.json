@@ -1,0 +1,2753 @@
+{
+  "FloorObject": {
+    "Archetype": "FloorObject.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "scale": [
+          200.0,
+          200.0,
+          200.0
+        ],
+        "orientation": [
+          -90.00007629394531,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "Ocean": {
+    "Name": "Ocean",
+    "Archetype": "GameOcean.json"
+  },
+  "bigCarPH_925": {
+    "Name": "bigCarPH_925",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -60.0,
+          0.0,
+          -85.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_926": {
+    "Name": "bigCarPH_926",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -60.0,
+          0.0,
+          -75.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_927": {
+    "Name": "bigCarPH_927",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -60.0,
+          0.0,
+          -65.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_928": {
+    "Name": "smallCarPH_928",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -60.0,
+          0.0,
+          -55.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_929": {
+    "Name": "bigCarPH_929",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -60.0,
+          0.0,
+          -45.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_930": {
+    "Name": "bigCarPH_930",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -85.0,
+          5.181732177734375,
+          -85.0
+        ],
+        "orientation": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_931": {
+    "Name": "smallCarPH_931",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -85.0,
+          5.181732177734375,
+          -75.0
+        ],
+        "orientation": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_932": {
+    "Name": "bigCarPH_932",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -85.0,
+          5.181732177734375,
+          -65.0
+        ],
+        "orientation": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_933": {
+    "Name": "smallCarPH_933",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -85.0,
+          5.181732177734375,
+          -55.0
+        ],
+        "orientation": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_934": {
+    "Name": "bigCarPH_934",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -85.0,
+          5.181732177734375,
+          -45.0
+        ],
+        "orientation": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "WoodBox_935": {
+    "Name": "WoodBox_935",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          -0.4108312129974365
+        ]
+      }
+    }
+  },
+  "WoodBox_936": {
+    "Name": "WoodBox_936",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          2.0891687870025635
+        ]
+      }
+    }
+  },
+  "WoodBox_937": {
+    "Name": "WoodBox_937",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          4.589168548583984
+        ]
+      }
+    }
+  },
+  "WoodBox_938": {
+    "Name": "WoodBox_938",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          7.089168548583984
+        ]
+      }
+    }
+  },
+  "WoodBox_939": {
+    "Name": "WoodBox_939",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          9.589168548583984
+        ]
+      }
+    }
+  },
+  "WoodBox_940": {
+    "Name": "WoodBox_940",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          12.089168548583984
+        ]
+      }
+    }
+  },
+  "WoodBox_941": {
+    "Name": "WoodBox_941",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -68.56028747558594,
+          0.0,
+          14.589168548583984
+        ]
+      }
+    }
+  },
+  "WoodBox_942": {
+    "Name": "WoodBox_942",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          -0.41084718704223633
+        ]
+      }
+    }
+  },
+  "WoodBox_943": {
+    "Name": "WoodBox_943",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          2.0891528129577637
+        ]
+      }
+    }
+  },
+  "WoodBox_944": {
+    "Name": "WoodBox_944",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          4.589152812957764
+        ]
+      }
+    }
+  },
+  "WoodBox_945": {
+    "Name": "WoodBox_945",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          7.089152812957764
+        ]
+      }
+    }
+  },
+  "WoodBox_946": {
+    "Name": "WoodBox_946",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          9.589153289794922
+        ]
+      }
+    }
+  },
+  "WoodBox_947": {
+    "Name": "WoodBox_947",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          12.089153289794922
+        ]
+      }
+    }
+  },
+  "WoodBox_948": {
+    "Name": "WoodBox_948",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -71.88658905029297,
+          0.0,
+          14.589153289794922
+        ]
+      }
+    }
+  },
+  "WoodBox_949": {
+    "Name": "WoodBox_949",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          -0.41083574295043945
+        ]
+      }
+    }
+  },
+  "WoodBox_950": {
+    "Name": "WoodBox_950",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          2.0891642570495605
+        ]
+      }
+    }
+  },
+  "WoodBox_951": {
+    "Name": "WoodBox_951",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          4.5891642570495605
+        ]
+      }
+    }
+  },
+  "WoodBox_952": {
+    "Name": "WoodBox_952",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          7.0891642570495605
+        ]
+      }
+    }
+  },
+  "WoodBox_953": {
+    "Name": "WoodBox_953",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          9.58916473388672
+        ]
+      }
+    }
+  },
+  "WoodBox_954": {
+    "Name": "WoodBox_954",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          12.08916473388672
+        ]
+      }
+    }
+  },
+  "WoodBox_955": {
+    "Name": "WoodBox_955",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -74.91004943847656,
+          0.0,
+          14.58916473388672
+        ]
+      }
+    }
+  },
+  "WoodBox_956": {
+    "Name": "WoodBox_956",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          0.0,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_957": {
+    "Name": "WoodBox_957",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          1.9445334672927856,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_958": {
+    "Name": "WoodBox_958",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          3.92495322227478,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_959": {
+    "Name": "WoodBox_959",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          0.0,
+          -49.31325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_960": {
+    "Name": "WoodBox_960",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          1.9445334672927856,
+          -49.31325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_961": {
+    "Name": "WoodBox_961",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          3.92495322227478,
+          -49.31325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_962": {
+    "Name": "WoodBox_962",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          0.0,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_963": {
+    "Name": "WoodBox_963",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          1.9445334672927856,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_964": {
+    "Name": "WoodBox_964",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          45.73427963256836,
+          3.92495322227478,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_965": {
+    "Name": "WoodBox_965",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          43.23427963256836,
+          0.0,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_966": {
+    "Name": "WoodBox_966",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          43.23427963256836,
+          1.9445334672927856,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_967": {
+    "Name": "WoodBox_967",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          43.23427963256836,
+          3.92495322227478,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_968": {
+    "Name": "WoodBox_968",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          0.0,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_969": {
+    "Name": "WoodBox_969",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          1.9445334672927856,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_970": {
+    "Name": "WoodBox_970",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          3.92495322227478,
+          -46.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_971": {
+    "Name": "WoodBox_971",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          0.0,
+          -49.31325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_972": {
+    "Name": "WoodBox_972",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          1.9445334672927856,
+          -49.31325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_973": {
+    "Name": "WoodBox_973",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          3.92495322227478,
+          -49.31325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_974": {
+    "Name": "WoodBox_974",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          0.0,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_975": {
+    "Name": "WoodBox_975",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          1.9445334672927856,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_976": {
+    "Name": "WoodBox_976",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          40.73427963256836,
+          3.92495322227478,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_977": {
+    "Name": "WoodBox_977",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          43.23427963256836,
+          0.0,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_978": {
+    "Name": "WoodBox_978",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          43.23427963256836,
+          1.9445334672927856,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_979": {
+    "Name": "WoodBox_979",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          43.23427963256836,
+          3.92495322227478,
+          -51.81325912475586
+        ]
+      }
+    }
+  },
+  "WoodBox_980": {
+    "Name": "WoodBox_980",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          0.0,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_981": {
+    "Name": "WoodBox_981",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          1.933971881866455,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_982": {
+    "Name": "WoodBox_982",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          3.914296388626098,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_983": {
+    "Name": "WoodBox_983",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          5.8942389488220215,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_984": {
+    "Name": "WoodBox_984",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          7.873939514160156,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_985": {
+    "Name": "WoodBox_985",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          0.0,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_986": {
+    "Name": "WoodBox_986",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          1.933971881866455,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_987": {
+    "Name": "WoodBox_987",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          3.914296388626098,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_988": {
+    "Name": "WoodBox_988",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          5.8942389488220215,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_989": {
+    "Name": "WoodBox_989",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          7.873939514160156,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_990": {
+    "Name": "WoodBox_990",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          0.0,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_991": {
+    "Name": "WoodBox_991",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          1.933971881866455,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_992": {
+    "Name": "WoodBox_992",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          3.914296388626098,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_993": {
+    "Name": "WoodBox_993",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          5.8942389488220215,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_994": {
+    "Name": "WoodBox_994",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          7.873939514160156,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_995": {
+    "Name": "WoodBox_995",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          0.0,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_996": {
+    "Name": "WoodBox_996",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          1.933971881866455,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_997": {
+    "Name": "WoodBox_997",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          3.914296388626098,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_998": {
+    "Name": "WoodBox_998",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          5.8942389488220215,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_999": {
+    "Name": "WoodBox_999",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          42.40797805786133,
+          7.873939514160156,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1000": {
+    "Name": "WoodBox_1000",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          0.0,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1001": {
+    "Name": "WoodBox_1001",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          1.933971881866455,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1002": {
+    "Name": "WoodBox_1002",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          3.914296388626098,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1003": {
+    "Name": "WoodBox_1003",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          5.8942389488220215,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1004": {
+    "Name": "WoodBox_1004",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          7.873939514160156,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1005": {
+    "Name": "WoodBox_1005",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          0.0,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1006": {
+    "Name": "WoodBox_1006",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          1.933971881866455,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1007": {
+    "Name": "WoodBox_1007",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          3.914296388626098,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1008": {
+    "Name": "WoodBox_1008",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          5.8942389488220215,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1009": {
+    "Name": "WoodBox_1009",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          7.873939514160156,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1010": {
+    "Name": "WoodBox_1010",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          0.0,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1011": {
+    "Name": "WoodBox_1011",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          1.933971881866455,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1012": {
+    "Name": "WoodBox_1012",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          3.914296388626098,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1013": {
+    "Name": "WoodBox_1013",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          5.8942389488220215,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1014": {
+    "Name": "WoodBox_1014",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          7.873939514160156,
+          62.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1015": {
+    "Name": "WoodBox_1015",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          0.0,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1016": {
+    "Name": "WoodBox_1016",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          1.933971881866455,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1017": {
+    "Name": "WoodBox_1017",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          3.914296388626098,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1018": {
+    "Name": "WoodBox_1018",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          5.8942389488220215,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1019": {
+    "Name": "WoodBox_1019",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          7.873939514160156,
+          60.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1020": {
+    "Name": "WoodBox_1020",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          0.0,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1021": {
+    "Name": "WoodBox_1021",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          1.933971881866455,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1022": {
+    "Name": "WoodBox_1022",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          3.914296388626098,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1023": {
+    "Name": "WoodBox_1023",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          5.8942389488220215,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1024": {
+    "Name": "WoodBox_1024",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          7.873939514160156,
+          57.72439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1025": {
+    "Name": "WoodBox_1025",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          0.0,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1026": {
+    "Name": "WoodBox_1026",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          1.933971881866455,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1027": {
+    "Name": "WoodBox_1027",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          3.914296388626098,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1028": {
+    "Name": "WoodBox_1028",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          5.8942389488220215,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1029": {
+    "Name": "WoodBox_1029",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          34.90797805786133,
+          7.873939514160156,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1030": {
+    "Name": "WoodBox_1030",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          0.0,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1031": {
+    "Name": "WoodBox_1031",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          1.933971881866455,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1032": {
+    "Name": "WoodBox_1032",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          3.914296388626098,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1033": {
+    "Name": "WoodBox_1033",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          5.8942389488220215,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1034": {
+    "Name": "WoodBox_1034",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          37.40797805786133,
+          7.873939514160156,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1035": {
+    "Name": "WoodBox_1035",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          0.0,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1036": {
+    "Name": "WoodBox_1036",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          1.933971881866455,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1037": {
+    "Name": "WoodBox_1037",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          3.914296388626098,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1038": {
+    "Name": "WoodBox_1038",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          5.8942389488220215,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "WoodBox_1039": {
+    "Name": "WoodBox_1039",
+    "Archetype": "GameBoxWood.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          39.90797805786133,
+          7.873939514160156,
+          55.22439956665039
+        ]
+      }
+    }
+  },
+  "palmTreePH_1040": {
+    "Name": "palmTreePH_1040",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -54.0,
+          0.0,
+          -82.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1041": {
+    "Name": "palmTreePH_1041",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -54.0,
+          0.0,
+          -66.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1042": {
+    "Name": "palmTreePH_1042",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -54.0,
+          0.0,
+          -50.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1043": {
+    "Name": "palmTreePH_1043",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -19.0,
+          0.0000152587890625,
+          89.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1044": {
+    "Name": "palmTreePH_1044",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -35.0,
+          0.0000152587890625,
+          89.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1045": {
+    "Name": "palmTreePH_1045",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -51.0,
+          0.0000152587890625,
+          89.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1046": {
+    "Name": "palmTreePH_1046",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -67.0,
+          0.0000152587890625,
+          89.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1047": {
+    "Name": "palmTreePH_1047",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -83.0,
+          0.0000152587890625,
+          89.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1048": {
+    "Name": "palmTreePH_1048",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -99.0,
+          0.0000152587890625,
+          89.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "smallCarPH_1049": {
+    "Name": "smallCarPH_1049",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          48.0,
+          0.0,
+          48.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_1050": {
+    "Name": "smallCarPH_1050",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          38.0,
+          0.0,
+          48.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_1051": {
+    "Name": "smallCarPH_1051",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          28.0,
+          0.0,
+          48.0
+        ],
+        "orientation": [
+          0.0,
+          45.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_1052": {
+    "Name": "smallCarPH_1052",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          28.0,
+          0.0,
+          58.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_1053": {
+    "Name": "smallCarPH_1053",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          28.0,
+          0.0,
+          68.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "bigCarPH_1054": {
+    "Name": "bigCarPH_1054",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          16.0,
+          0.0000152587890625,
+          0.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_1055": {
+    "Name": "smallCarPH_1055",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          1.0,
+          0.0,
+          -14.0
+        ],
+        "orientation": [
+          0.0,
+          180.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "smallCarPH_1056": {
+    "Name": "smallCarPH_1056",
+    "Archetype": "SmallCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          1.0,
+          0.0,
+          13.0
+        ],
+        "orientation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  },
+  "metalPH_1057": {
+    "Name": "metalPH_1057",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -66.0,
+          0.0,
+          -26.0
+        ]
+      }
+    }
+  },
+  "metalPH_1058": {
+    "Name": "metalPH_1058",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -70.0,
+          0.0,
+          -23.0
+        ]
+      }
+    }
+  },
+  "metalPH_1059": {
+    "Name": "metalPH_1059",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -44.0,
+          0.0,
+          -3.0
+        ]
+      }
+    }
+  },
+  "metalPH_1060": {
+    "Name": "metalPH_1060",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -49.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "metalPH_1061": {
+    "Name": "metalPH_1061",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -57.0,
+          0.0,
+          37.0
+        ]
+      }
+    }
+  },
+  "metalPH_1062": {
+    "Name": "metalPH_1062",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -57.0,
+          0.0,
+          30.0
+        ]
+      }
+    }
+  },
+  "metalPH_1063": {
+    "Name": "metalPH_1063",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -81.0,
+          0.0,
+          66.0
+        ]
+      }
+    }
+  },
+  "metalPH_1064": {
+    "Name": "metalPH_1064",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -88.0,
+          0.0,
+          66.0
+        ]
+      }
+    }
+  },
+  "metalPH_1065": {
+    "Name": "metalPH_1065",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          0.0,
+          0.0,
+          48.0
+        ]
+      }
+    }
+  },
+  "metalPH_1066": {
+    "Name": "metalPH_1066",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          0.0,
+          0.0,
+          56.0
+        ]
+      }
+    }
+  },
+  "metalPH_1067": {
+    "Name": "metalPH_1067",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          15.0,
+          0.0,
+          -47.0
+        ]
+      }
+    }
+  },
+  "metalPH_1068": {
+    "Name": "metalPH_1068",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          18.0,
+          0.0,
+          -40.0
+        ]
+      }
+    }
+  },
+  "metalPH_1069": {
+    "Name": "metalPH_1069",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          61.0,
+          0.0,
+          27.0
+        ]
+      }
+    }
+  },
+  "metalPH_1070": {
+    "Name": "metalPH_1070",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          57.0,
+          0.0,
+          22.0
+        ]
+      }
+    }
+  },
+  "metalPH_1071": {
+    "Name": "metalPH_1071",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          63.0,
+          0.0,
+          -72.0
+        ]
+      }
+    }
+  },
+  "metalPH_1072": {
+    "Name": "metalPH_1072",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          64.0,
+          0.0,
+          -66.0
+        ]
+      }
+    }
+  },
+  "metalPH_1073": {
+    "Name": "metalPH_1073",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          10.0,
+          0.0,
+          -83.0
+        ]
+      }
+    }
+  },
+  "metalPH_1074": {
+    "Name": "metalPH_1074",
+    "Archetype": "MetalPlaceHolder.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          6.0,
+          0.0,
+          -78.0
+        ]
+      }
+    }
+  },
+  "palmTreePH_1075": {
+    "Name": "palmTreePH_1075",
+    "Archetype": "ptPlaceHolder.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          21.0,
+          0.0,
+          -17.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "TurretBase_1076": {
+    "Name": "TurretBase_1076",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          43.0,
+          0.0,
+          -75.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "TurretEnemy_1076": {
+    "Name": "TurretEnemy_1076",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBase_1076",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "TurretBase_1077": {
+    "Name": "TurretBase_1077",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          49.0,
+          0.0,
+          -71.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "TurretEnemy_1077": {
+    "Name": "TurretEnemy_1077",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBase_1077",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "TurretBase_1078": {
+    "Name": "TurretBase_1078",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          36.0,
+          0.0,
+          -81.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "TurretEnemy_1078": {
+    "Name": "TurretEnemy_1078",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBase_1078",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "TurretBase_1079": {
+    "Name": "TurretBase_1079",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -83.0,
+          0.0,
+          2.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "TurretEnemy_1079": {
+    "Name": "TurretEnemy_1079",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBase_1079",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "TurretBase_1080": {
+    "Name": "TurretBase_1080",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -83.0,
+          0.0,
+          13.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "orientation": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "TurretEnemy_1080": {
+    "Name": "TurretEnemy_1080",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBase_1080",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "Debris_0": {
+    "Name": "Debris_0",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_1": {
+    "Name": "Debris_1",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -45.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_2": {
+    "Name": "Debris_2",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -40.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_3": {
+    "Name": "Debris_3",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -35.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_4": {
+    "Name": "Debris_4",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -25.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_5": {
+    "Name": "Debris_5",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -20.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_6": {
+    "Name": "Debris_6",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -15.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_7": {
+    "Name": "Debris_7",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -10.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_8": {
+    "Name": "Debris_8",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -5.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_9": {
+    "Name": "Debris_9",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          0.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_10": {
+    "Name": "Debris_10",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          5.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_11": {
+    "Name": "Debris_11",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          10.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_12": {
+    "Name": "Debris_12",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          15.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_13": {
+    "Name": "Debris_13",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          20.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_14": {
+    "Name": "Debris_14",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          25.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_15": {
+    "Name": "Debris_15",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          30.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  }
+}

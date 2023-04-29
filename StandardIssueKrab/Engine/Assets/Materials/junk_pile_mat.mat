@@ -1,0 +1,15 @@
+{
+    "diffuse": [
+        0.900000011920929,
+        0.900000011920929,
+        0.900000011920929
+    ],
+    "specular": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "glossiness": 0.0,
+    "base_color_texture": "junkyard_diffuse.png",
+    "shader": "lit"
+}

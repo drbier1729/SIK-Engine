@@ -1,0 +1,16 @@
+{
+    "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+    ],
+    "specular": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "glossiness": 0.1,
+    "base_color_texture": "gravel_diffuse.png",
+    "normal_map": "gravel_nrm.png",
+    "shader": "lit"
+}

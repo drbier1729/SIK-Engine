@@ -1,0 +1,16 @@
+{
+  "Name": "BehaviourObject2",
+  "Components": {
+    "MeshRenderer": {
+      "mesh": "Sphere",
+      "material": "solid_red.mat"
+    },
+    "Behaviour": {
+      "scripts": [
+        "move_objects.lua",
+        "play_audio.lua",
+        "test_script.lua"
+      ]
+    }
+  }
+}

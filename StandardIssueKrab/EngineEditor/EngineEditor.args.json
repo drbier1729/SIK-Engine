@@ -1,0 +1,10 @@
+{
+  "FileVersion": 2,
+  "Id": "d3b7f9aa-84b5-4eaa-8b4c-51c571f9159d",
+  "Items": [
+    {
+      "Id": "e6c8058f-e101-491e-ac49-b2e2353a0a77",
+      "Command": "debug-draw"
+    }
+  ]
+}

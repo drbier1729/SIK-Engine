@@ -1,0 +1,13 @@
+{
+    "CheatsHUD": {
+            "Type": "TEXT",
+            "Coords": [ 10, 24 ],
+            "Dimensions": [ 150, 150 ],
+            "Color": [ 255, 255, 255, 255 ],
+            "Font": {
+              "ttf_name": "Bahiana-Regular.ttf",
+              "pixel_height": 24
+            },
+      "Text": "CHEATS ACTIVE: 1: Invincibility | 2: Kill Player | 3: Go to Game End | 4: Go to Game Start | 5: Disable Collisions | 6: Draw Colliders | 7: Get Resources | 8: Complete Level | 9: Enter Garage"
+    }
+}

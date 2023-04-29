@@ -1,0 +1,27 @@
+{
+  "Name": "RoadObject",
+  "Children": {
+
+  },
+
+  "Components": {
+    "TestComp": {},
+    "Transform": {
+      "position": [ -10.0, 5.5, -23.1 ],
+      "scale": [ 3.1, 0.5, 48.1 ]
+    },
+
+    "RigidBody": {
+      "position": [ -10.0, 5.5, -23.1 ],
+      "aabb_halfwidths": [ 3.1, 0.5, 48.1 ],
+      "motion_type": "Static",
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+
+    "MeshRenderer": {
+      "mesh": "Cube",
+      "material": "textured_box.mat"
+    }
+  }
+}

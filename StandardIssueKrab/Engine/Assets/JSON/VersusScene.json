@@ -1,0 +1,58 @@
+{
+  "GamePlayer_2": {
+    "Archetype": "GamePlayerTwo.json",
+    "Components": {
+      "CarController": {
+        "speed": 5000.0,
+        "angular_speed": 40.0,
+        "reverse_speed": 3000.0,
+        "headlights_forward_offset": 3.0,
+        "headlights_vertical_offset": 0.0,
+        "headlights_width": 1.5,
+        "headlights_radius": 2.0,
+        "player_controller_num": 2,
+        "action_map_string": "GamePlayerTwoControls.json"
+      },
+      "Behaviour": {
+        "scripts": [
+          "car_script.lua"
+        ]
+      }
+    }
+  },
+  "WreckingBall_2": {
+    "Archetype": "WreckingBall.json",
+    "Components": {
+      "BallnChain": {
+        "parent_obj_name": "GamePlayer_2",
+        "anchor_offset": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chain_links_count": 4,
+        "ball_mass": 180.0,
+        "spring_coeff": 20000.0,
+        "damper_coeff": 1000.0,
+        "spring_rest_length": 0.8
+      }
+    }
+  },
+  "FloorObject": {
+    "Archetype": "FloorObject.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "scale": [
+          200.0,
+          200.0,
+          200.0
+        ]
+      }
+    }
+  }
+}

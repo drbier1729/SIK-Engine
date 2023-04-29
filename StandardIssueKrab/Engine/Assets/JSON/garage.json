@@ -1,0 +1,25 @@
+{
+    "Name": "garage",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "garage.fbx",
+    "material": "garage_mat.mat"
+}    }
+}

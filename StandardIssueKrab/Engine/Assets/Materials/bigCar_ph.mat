@@ -1,0 +1,6 @@
+{
+    "diffuse": [1.0, 0.0, 0.0],
+    "specular": [0.8, 0.8, 0.8],
+    "roughness": 0.0,
+    "shader": "lit"
+}

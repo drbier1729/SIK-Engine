@@ -1,0 +1,5 @@
+{
+  "base_color_texture": "metall010-new-tileable-bar.jpg",
+  "normal_map": "metall010-new-tileable-bar_normal.jpg",
+  "shader": "lit"
+}

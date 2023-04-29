@@ -1,0 +1,54 @@
+{
+    "Name": "dumbell",
+    "Components": {
+    "Transform":{
+    "position": [
+        -7.450580596923828e-09,
+        5.0,
+        5.960464477539063e-08
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "dumbell.fbx",
+    "material": "muscle_beach_props_mat.mat",
+    "mass": 500.0,
+    "gravity_scale": 1.0,
+    "linear_damping": 0.005,
+    "friction": 0.2,
+    "restitution": 0.5
+},
+    "RigidBody":{
+    "position": [
+        -7.450580596923828e-09,
+        5.0,
+        5.960464477539063e-08
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.0,
+        0.5822879076004028,
+        0.5822877883911133
+    ],
+    "motion_type": "Dynamic"
+},
+    "MetalBox": {},
+    "Debris": {
+      "chase_speed": 10.0,
+      "max_chase_dist": 15.0
+}
+    }
+}

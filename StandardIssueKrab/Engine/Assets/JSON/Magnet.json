@@ -1,0 +1,36 @@
+{
+  "Name": "Magnet",
+  "Components": {
+    "Transform": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "RigidBody": {
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [ 
+        0.7498136162757874,
+        0.1476738303899765,
+        0.7213436961174011 ],
+      "mass": 5.0,
+      "gravity_scale": 0.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "magnet_object.fbx",
+      "material": "magnet_mat.mat"
+    },
+    "Magnet": {
+      "shoot_speed": 50.0
+    },
+    "Attachment": {
+      "attached_to": "GamePlayer",
+      "follow": true,
+      "lock_orientation": true,
+      "pos_offset": [ 0.0, 1.5, 0.0 ]
+    }
+  }
+}

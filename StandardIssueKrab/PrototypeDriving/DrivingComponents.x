@@ -1,0 +1,3 @@
+REGISTER_COMPONENT(Waypoint)
+REGISTER_COMPONENT(ObjectiveTracker)
+REGISTER_COMPONENT(DrivingCameraFollow)

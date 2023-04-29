@@ -1,0 +1,14 @@
+{
+  "Name": "Waypoint",
+  "Components": {
+    "MeshRenderer": {
+      "mesh": "waypoint.fbx",
+      "material": "solid_red.mat"
+    },
+    "Transform": {
+        "orientation": [0.0, 45.0, 0.0]
+    },
+    "Waypoint" : {}
+  }
+  
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "beach_sand",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        -94.68156433105469,
+        -2.9723172187805176
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.5,
+        1.5,
+        1.5
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "beach_sand.fbx",
+    "material": "sand_mat.mat"
+}    }
+}

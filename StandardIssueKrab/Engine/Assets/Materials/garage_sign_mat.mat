@@ -1,0 +1,15 @@
+{
+    "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+    ],
+    "specular": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "glossiness": 1.0,
+    "base_color_texture": "garage_sign_diffuse.jpg",
+    "shader": "lit"
+}

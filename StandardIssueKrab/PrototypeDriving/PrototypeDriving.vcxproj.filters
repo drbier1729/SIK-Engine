@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{6eb2f72b-06ab-4516-9ba5-cca561bb6ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{554aa1af-3ad2-4b60-a480-609f9f72da5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeInterface.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="CountdownTimer.cpp" />
+    <ClCompile Include="Waypoint.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectiveTracker.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DrivingCameraFollow.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Waypoint.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="CountdownTimer.h" />
+    <ClInclude Include="DrivingComponents.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectiveTracker.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DrivingCameraFollow.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DrivingComponents.x">
+      <Filter>Components</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+{
+    "Name": "crane_tower",
+    "Components": {
+    "Transform":{
+    "position": [
+        -6.610696345887845e-08,
+        3.5220924843315515e-08,
+        4.449239730834961
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "crane_tower.fbx",
+    "material": "crane_tower_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        -6.610696345887845e-08,
+        3.5220924843315515e-08,
+        4.449239730834961
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.143008828163147,
+        4.449239730834961,
+        1.143008828163147
+    ],
+    "motion_type": "Static"
+}
+    }
+}

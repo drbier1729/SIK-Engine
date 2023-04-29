@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{808afd2d-ca16-4543-8368-0da5ece50c28}</ProjectGuid>
+    <RootNamespace>PrototypeBuilding</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)..\Libs\freetype\include;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\imgui;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\glm;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(OutDir);$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)..\Libs\freetype\include;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\imgui;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\glm;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(OutDir);$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PROTOTYPE;MEM_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;STR_DEBUG;_DEBUG;PROTOTYPEBUILDING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>freetype.lib;wsock32.lib;fmodL_vc.lib;Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;glew32s.lib;opengl32.lib;xxhash.lib;assimp-vc143-mt.lib;Lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PROTOTYPE;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;PROTOTYPEBUILDING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>freetype.lib;wsock32.lib;fmodL_vc.lib;Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;glew32s.lib;opengl32.lib;xxhash.lib;assimp-vc143-mt.lib;Lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Collectable.cpp" />
+    <ClCompile Include="Destroyable.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="PrototypeBuilding.cpp" />
+    <ClCompile Include="PrototypeInterface.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collectable.h" />
+    <ClInclude Include="Destroyable.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="PrototypeBuilding.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Engine\Assets\JSON\building_camera_controls.json" />
+    <None Include="..\Engine\Assets\JSON\building_prototype_controls.json" />
+    <None Include="BuildingComponents.x" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

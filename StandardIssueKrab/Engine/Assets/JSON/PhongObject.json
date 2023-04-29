@@ -1,0 +1,18 @@
+{
+  "Name": "PhongObject",
+  "Children": {
+	  
+  },
+  "Components": {
+	  "TestComp": {},
+
+    "Transform": {
+      "position": [-3.0 , 1.0, 5.0 ]
+    },
+
+    "MeshRenderer": {
+      "mesh": "sphere_primitive.fbx",
+      "material": "phong.mat"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Name": "Box",
+  "Components": {
+    "RigidBody": {
+      "position": [ -5.0, 5.0, 0.0 ],
+      "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+      "motion_type": "Dynamic",
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005
+    },
+    "MeshRenderer": {
+      "mesh": "Cube",
+      "material": "textured_box.mat"
+    },
+    "Anchored": {
+      "anchored_to": "StaticBox",
+      "anchor_offset": [ 0.0, 0.0, 0.0 ],
+      "chain_links_count": 3,
+      "spring_coeff": 10000.0,
+      "damper_coeff": 1000.0,
+      "spring_rest_length": 0.5
+    }
+  }
+}

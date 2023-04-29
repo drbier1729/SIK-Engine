@@ -1,0 +1,11 @@
+{
+  "Name": "Compass",
+  "Components": {
+    "MeshRenderer": {
+      "mesh": "compass.fbx",
+      "material": "solid_red.mat"
+    },
+    "ObjectiveTracker" : {}
+  }
+  
+}

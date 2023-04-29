@@ -1,0 +1,28 @@
+{
+  "Name": "CollectableObj",
+  "Components": {
+    "Transform": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "RigidBody": {
+      "scale": [ 0.5, 0.5, 0.5 ],
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [ 0.75, 0.75, 0.75 ],
+      "is_trigger": true,
+      "mass": 1000.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.01
+    },
+    "MeshRenderer": {
+      "mesh": "Sphere",
+      "material": "textured_collectable.mat"
+    },
+    "Collectable": {
+      "Type": "Resource1",
+      "rising_speed": 5.0,
+      "chase_speed": 15.0,
+      "apex_threshold": 2.0,
+      "starting_height": 0.0
+    }
+  }
+}

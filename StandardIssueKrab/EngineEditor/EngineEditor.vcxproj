@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d3b7f9aa-84b5-4eaa-8b4c-51c571f9159d}</ProjectGuid>
+    <RootNamespace>EngineEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\glm\;$(SolutionDir)..\Libs\imgui\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(OutDir);$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\glm\;$(SolutionDir)..\Libs\imgui\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(OutDir);$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PROTOTYPE;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;wsock32.lib;fmodL_vc.lib;Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;xxhash.lib;assimp-vc143-mt.lib;Lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PROTOTYPE;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;wsock32.lib;fmodL_vc.lib;Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;xxhash.lib;assimp-vc143-mt.lib;Lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

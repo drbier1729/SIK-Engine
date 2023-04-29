@@ -1,0 +1,21 @@
+{
+  "Name": "GameObjectTest1",
+  "Children": {
+
+  },
+
+  "Components": {
+    "TestComp": {},
+
+    "MeshRenderer": {
+      "mesh": "Sphere",
+      "material": "solid_red.mat"
+    },
+
+    "Behaviour": {
+      "scripts": [
+        "move_objects.lua"
+      ]
+    }
+  }
+}

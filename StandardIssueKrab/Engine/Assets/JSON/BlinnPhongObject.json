@@ -1,0 +1,18 @@
+{
+  "Name": "BlinnPhongObject",
+  "Children": {
+	  
+  },
+  "Components": {
+	  "TestComp": {},
+
+    "Transform": {
+      "position": [0.0 , 1.0, 5.0 ]
+    },
+
+    "MeshRenderer": {
+      "mesh": "sphere_primitive.fbx",
+      "material": "blinn_phong.mat"
+    }
+  }
+}

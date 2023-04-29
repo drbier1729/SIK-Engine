@@ -1,0 +1,25 @@
+{
+    "Name": "street_t",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "street_t.fbx",
+    "material": "street_mat.mat"
+}    }
+}

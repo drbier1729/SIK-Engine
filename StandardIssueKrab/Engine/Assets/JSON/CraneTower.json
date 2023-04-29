@@ -1,0 +1,26 @@
+{
+  "Name": "CraneTower",
+  "Components": {
+    "Transform": {
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Static",
+      "aabb_halfwidths": [ 1.0, 5.0, 1.0 ],
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "crane_tower.fbx",
+      "material": "crane_tower.mat"
+    },
+    "ObjectHolder": {}
+  }
+}

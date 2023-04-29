@@ -1,0 +1,21 @@
+{
+  "Name": "ChainAnchor",
+  "Components": {
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 0.10, 0.10, 0.10 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "aabb_halfwidths": [ 0.10, 0.10, 0.10 ],
+      "motion_type": "Dynamic",
+      "mass": 10.0,
+      "gravity_scale": 0.0,
+      "linear_damping": 0.005
+    },
+    "MeshRenderer": {
+      "mesh": "Cone",
+      "material": "textured_metal.mat"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "FloorObjectIntro",
+  "Components": {
+    "Transform": {
+      "orientation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    "MeshRenderer": {
+      "mesh": "Plane",
+      "material": "textured_ground_intro.mat"
+    }
+  }
+}

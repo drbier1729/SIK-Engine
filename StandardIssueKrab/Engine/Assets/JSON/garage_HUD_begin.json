@@ -1,0 +1,171 @@
+{
+  "JunkyardArenaButton": {
+    "Type": "BUTTON",
+    "Coords": [ 80, 50 ],
+    "Dimensions": [ 320, 80 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Texture": "junk_button.png",
+    "AltTexture": "junk_button_high.png",
+    "Highlighted_index": [ 0, 0 ],
+    "Behaviour": {
+      "scripts": [
+        "junkyard_arena_button.lua"
+      ]
+    }
+  },
+  "ConstructionArenaButton": {
+    "Type": "BUTTON",
+    "Coords": [ 480, 50 ],
+    "Dimensions": [ 320, 80 ],
+    "Color": [ 180, 112, 59, 255 ],
+    "Texture": "locked_construction_button.png",
+    "AltTexture": "locked_construction_button_high.png",
+    "Highlighted_index": [ 0, 1 ],
+    "Behaviour": {
+      "scripts": [
+        "construction_arena_button.lua"
+      ]
+    }
+  },
+  "MuscleArenaButton": {
+    "Type": "BUTTON",
+    "Coords": [ 880, 50 ],
+    "Dimensions": [ 320, 80 ],
+    "Color": [ 180, 112, 59, 255 ],
+    "Texture": "locked_mb_button.png",
+    "AltTexture": "locked_mb_button_high.png",
+    "Highlighted_index": [ 0, 2 ],
+    "Behaviour": {
+      "scripts": [
+        "muscle_arena_button.lua"
+      ]
+    }
+  },
+
+  "UpgradeInstructionPanel": {
+    "Type": "PANEL",
+    "Coords": [ 700, 160 ],
+    "Dimensions": [ 500, 120 ],
+    "Texture": "instructions_upgrade.png",
+    "Behaviour": {
+      "scripts": [
+        "tutorial_upgrade.lua"
+      ]
+    }
+  },
+
+  "MagnetInstructionPanel": {
+    "Type": "PANEL",
+    "Coords": [ 700, 160 ],
+    "Dimensions": [ 500, 120 ],
+    "Texture": "instructions_magnet_keyboard.png",
+    "Behaviour": {
+      "scripts": [
+        "tutorial_magnet.lua"
+      ]
+    }
+  },
+
+  "UpgradePanel": {
+    "Type": "PANEL",
+    "Coords": [ 900, 300 ],
+    "Dimensions": [ 320, 400 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Embedded": {
+      "ResourceCount_Panel_Garage": {
+        "Type": "PANEL",
+        "Coords": [ 120, 20 ],
+        "Dimensions": [ 197, 46 ],
+        "Color": [ 0, 0, 0, 0 ],
+        "Embedded": {
+          "ResourceIcon": {
+            "Type": "PANEL",
+            "Coords": [ 0, 0 ],
+            "Dimensions": [ 197, 46 ],
+            "Texture": "Resource.png"
+          },
+          "ResourceCount_Text": {
+            "Type": "TEXT",
+            "Coords": [ 80, 30 ],
+            "Dimensions": [ 150, 150 ],
+            "Color": [ 200, 200, 200, 255 ],
+            "Font": {
+              "ttf_name": "Bahiana-Regular.ttf",
+              "pixel_height": 32
+            },
+            "Text": "00000",
+            "Behaviour": {
+              "scripts": [
+                "hud_inventory.lua"
+              ]
+            }
+          }
+        }
+      },
+      "WreckingBallButton": {
+        "Type": "BUTTON",
+        "Coords": [ 0, 122 ],
+        "Dimensions": [ 320, 124 ],
+        "Color": [ 180, 112, 59, 255 ],
+        "Texture": "wb_button.png",
+        "AltTexture": "wb_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "ball_upgrade_button.lua"
+          ]
+        },
+        "Highlighted_index": [ 1, 0 ],
+        "Embedded": {
+          "StartText": {
+            "Type": "TEXT",
+            "Coords": [ 270, 99 ],
+            "Dimensions": [ 150, 70 ],
+            "Color": [ 255, 255, 255, 255 ],
+            "Behaviour": {
+              "scripts": [
+                "ball_upgrade_text.lua"
+              ]
+            },
+            "Font": {
+              "ttf_name": "Bahiana-Regular.ttf",
+              "pixel_height": 32
+            },
+            "Text": "20"
+          }
+        }
+      },
+      "MagnetButton": {
+        "Type": "BUTTON",
+        "Coords": [ 0, 276 ],
+        "Dimensions": [ 320, 124 ],
+        "Color": [ 180, 112, 59, 255 ],
+        "Texture": "mag_button.png",
+        "AltTexture": "mag_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "magnet_upgrade_button.lua"
+          ]
+        },
+        "Highlighted_index": [ 2, 0 ],
+        "Embedded": {
+          "StartText": {
+            "Type": "TEXT",
+            "Coords": [ 265, 99 ],
+            "Dimensions": [ 150, 70 ],
+            "Color": [ 255, 255, 255, 255 ],
+            "Behaviour": {
+              "scripts": [
+                "magnet_upgrade_text.lua"
+              ]
+            },
+            "Font": {
+              "ttf_name": "Bahiana-Regular.ttf",
+              "pixel_height": 32
+            },
+            "Text": "500"
+          }
+        }
+      }
+    }
+  }
+}

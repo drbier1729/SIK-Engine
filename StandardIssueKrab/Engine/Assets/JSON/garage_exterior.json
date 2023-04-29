@@ -1,0 +1,44 @@
+{
+    "Name": "garage_exterior",
+    "Components": {
+    "Transform":{
+    "position": [
+        105.92045593261719,
+        -255.8489532470703,
+        2.987717628479004
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "garage_exterior.fbx",
+    "material": "garage_exterior_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        105.92045593261719,
+        -255.8489532470703,
+        2.987717628479004
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        11.585856437683105,
+        3.987717628479004,
+        20.120939254760742
+    ],
+    "motion_type": "Static"
+}
+    }
+}

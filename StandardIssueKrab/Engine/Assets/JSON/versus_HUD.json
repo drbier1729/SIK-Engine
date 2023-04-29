@@ -1,0 +1,64 @@
+{
+  "Player1_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 50, 50 ],
+    "Dimensions": [ 280, 80 ],
+    "Color": [ 0, 0, 10, 255 ],
+    "Embedded": {
+      "ResourceCount_Title": {
+        "Type": "TEXT",
+        "Coords": [ 30, 30 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50, 255 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 24
+        },
+        "Text": "Player 1 Health"
+      }
+    }
+  },
+  "Player1_HealthBar": {
+    "Type": "PANEL",
+    "Coords": [ 80, 90 ],
+    "Dimensions": [ 200, 30 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Texture": "Rectangle_Red.png",
+    "Behaviour": {
+      "scripts": [
+        "hud_health.lua"
+      ]
+    }
+  },
+  "Player2_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 600, 50 ],
+    "Dimensions": [ 280, 80 ],
+    "Color": [ 0, 0, 10, 255 ],
+    "Embedded": {
+      "ResourceCount_Title": {
+        "Type": "TEXT",
+        "Coords": [ 30, 30 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50, 255 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 24
+        },
+        "Text": "Player 2 Health"
+      }
+    }
+  },
+  "Player2_HealthBar": {
+    "Type": "PANEL",
+    "Coords": [ 630, 90 ],
+    "Dimensions": [ 200, 30 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Texture": "Rectangle_Red.png",
+    "Behaviour": {
+      "scripts": [
+        "hud_health_player2.lua"
+      ]
+    }
+  }
+}

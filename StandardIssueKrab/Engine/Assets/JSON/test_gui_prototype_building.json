@@ -1,0 +1,62 @@
+{
+  "ResourceCount_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 100, 50 ],
+    "Dimensions": [ 200, 80 ],
+    "Color": [ 0, 0, 10 ],
+    "Embedded": {
+      "ResourceCount_Title": {
+        "Type": "TEXT",
+        "Coords": [ 30, 30 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "CompassPro.ttf",
+          "pixel_height": 24
+        },
+        "Text": "Resource Count"
+      },
+      "ResourceCount": {
+        "Type": "TEXT",
+        "Coords": [ 140, 60 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 0, 0 ],
+        "Font": {
+          "ttf_name": "CompassPro.ttf",
+          "pixel_height": 18
+        },
+        "Text": "x0"
+      }
+    }
+  },
+  "Speed_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 500, 50 ],
+    "Dimensions": [ 200, 80 ],
+    "Color": [ 0, 0, 10 ],
+    "Embedded": {
+      "Speed_Title": {
+        "Type": "TEXT",
+        "Coords": [ 30, 30 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "CompassPro.ttf",
+          "pixel_height": 24
+        },
+        "Text": "Speed"
+      },
+      "Speed_Value": {
+        "Type": "TEXT",
+        "Coords": [ 60, 60 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "CompassPro.ttf",
+          "pixel_height": 24
+        },
+        "Text": "1000"
+      }
+    }
+  }
+}

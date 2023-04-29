@@ -1,0 +1,15 @@
+{
+  "Name": "GameObjectTest",
+  "Children": {
+
+  },
+
+  "Components": {
+    "TestComp": {},
+
+    "MeshRenderer": {
+      "mesh": "Cube",
+      "material": "lit.mat"
+    }
+  }
+}

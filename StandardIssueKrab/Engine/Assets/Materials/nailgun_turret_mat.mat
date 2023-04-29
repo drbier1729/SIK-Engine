@@ -1,0 +1,15 @@
+{
+    "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+    ],
+    "specular": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "glossiness": 0.25555557012557983,
+    "base_color_texture": "turret_base_color.png",
+    "shader": "lit"
+}

@@ -1,0 +1,45 @@
+{
+    "Name": "muscle_car",
+    "Components": {
+    "Transform":{
+    "position": [
+        -0.0018443844746798277,
+        0.1420573890209198,
+        -0.028572335839271545
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "muscle_car.fbx",
+    "material": "muscle_car_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        -0.0018443844746798277,
+        0.1420573890209198,
+        -0.028572335839271545
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.5978608131408691,
+        0.9341742992401123,
+        3.5508408546447754
+    ],
+    "motion_type": "Dynamic"
+>>>>>>> main
+}
+    }
+}

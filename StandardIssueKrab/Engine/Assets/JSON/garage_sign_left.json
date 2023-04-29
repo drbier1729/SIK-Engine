@@ -1,0 +1,44 @@
+{
+    "Name": "garage_sign_left",
+    "Components": {
+    "Transform":{
+    "position": [
+        2.8896543979644775,
+        -0.07269240915775299,
+        1.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "garage_sign_left.fbx",
+    "material": "garage_sign_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        2.8896543979644775,
+        -0.07269240915775299,
+        1.0
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.2157862186431885,
+        1.0,
+        0.138099804520607
+    ],
+    "motion_type": "Static"
+}
+    }
+}

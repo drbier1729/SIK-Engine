@@ -1,0 +1,70 @@
+{
+  "BackPanel": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Color": [ 0, 0, 0, 255 ],
+    "Texture": "menu_frame.png",
+    "Embedded": {
+      "StartButton": {
+        "Type": "BUTTON",
+        "Coords": [ 324, 458 ],
+        "Dimensions": [ 115, 150 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "start_button.png",
+        "AltTexture": "start_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_start.lua"
+          ]
+        },
+        "Highlighted_index": [ 0, 0 ]
+      },
+
+      "OptionsButton": {
+        "Type": "BUTTON",
+        "Coords": [ 490, 458 ],
+        "Dimensions": [ 115, 150 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "options_button.png",
+        "AltTexture": "options_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_options.lua"
+          ]
+        },
+        "Highlighted_index": [ 0, 1 ]
+      },
+
+      "CreditsButton": {
+        "Type": "BUTTON",
+        "Coords": [ 665, 458 ],
+        "Dimensions": [ 115, 150 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "credits_button.png",
+        "AltTexture": "credits_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_credits.lua"
+          ]
+        },
+        "Highlighted_index": [0, 2]
+      },
+
+      "QuitButton": {
+        "Type": "BUTTON",
+        "Coords": [ 842, 458 ],
+        "Dimensions": [ 115, 150 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "quit_button.png",
+        "AltTexture": "quit_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_confirm_quit.lua"
+          ]
+        },
+        "Highlighted_index": [0, 3]
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Name": "SmallCarEnemy",
+  "Components": {
+    "Transform": {
+      "position": [
+        -0.0018443844746798277,
+        0.1420573890209198,
+        -0.028572335839271545
+      ],
+      "orientation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "RigidBody": {
+      "position": [
+        -0.0018443844746798277,
+        0.1420573890209198,
+        -0.028572335839271545
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [
+        1.5978608131408691,
+        0.9341742992401123,
+        3.5508408546447754
+      ],
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "muscle_car.fbx",
+      "material": "muscle_car_mat.mat"
+    },
+    "GenericCarEnemy": {
+      "max_forward_speed": 2000.0,
+      "max_reverse_speed": 1000.0,
+      "max_angular_speed": 35.0,
+      "aggro_radius": 50.0,
+      "damage": 3,
+      "destroy_vel_threshold": 4.0,
+      "enemy_type": "SmallCar",
+      "headlights_forward_offset": 6.3,
+      "headlights_vertical_offset": 0.0,
+      "headlights_width": 2.0,
+      "headlights_radius": 1.2,
+      "headlights_length": 2.0,
+      "headlights_color":  [3.0, 0.0, 0.0]
+    },
+    "Behaviour": {
+      "scripts": [
+        "generic_car_enemy.lua"
+      ]
+    },
+    "Health": {
+      "hp_max": 1
+    }
+  }
+}

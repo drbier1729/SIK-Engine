@@ -1,0 +1,58 @@
+{
+  "BackPanel": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Color": [ 0, 0, 0, 255 ],
+    "Texture": "options_frame.png",
+    "Behaviour": {
+      "scripts": [
+        "options_change.lua"
+      ]
+    },
+    "Embedded": {
+      "SfxButton": {
+        "Type": "BUTTON",
+        "Coords": [ 814, 212 ],
+        "Dimensions": [ 90, 90 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "sfx_button.png",
+        "AltTexture": "sfx_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_mute_sfx.lua"
+          ]
+        },
+        "Highlighted_index": [ 0, 0 ]
+      },
+      "MusicButton": {
+        "Type": "BUTTON",
+        "Coords": [ 814, 333 ],
+        "Dimensions": [ 90, 90 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "music_button.png",
+        "AltTexture": "music_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_mute_music.lua"
+          ]
+        },
+        "Highlighted_index": [ 1, 0 ]
+      },
+      "QuitButton": {
+        "Type": "BUTTON",
+        "Coords": [ 874, 553 ],
+        "Dimensions": [ 114, 50 ],
+        "Color": [ 15, 11, 194, 255 ],
+        "Texture": "back_button.png",
+        "AltTexture": "back_button_high.png",
+        "Behaviour": {
+          "scripts": [
+            "button_back.lua"
+          ]
+        },
+        "Highlighted_index": [ 2, 0 ]
+      }
+    }
+  }
+}

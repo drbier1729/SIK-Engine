@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3d48c3a3-0a86-4f06-b0e7-3e0b3a6fe09d}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\Libs\freetype\include;$(SolutionDir)..\Libs\stbi\include;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\imgui\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\glm\;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+    <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\Libs\freetype\include;$(SolutionDir)..\Libs\stbi\include;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\imgui\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\glm\;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+    <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;MEM_DEBUG;STR_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;SIK_LOG_LEVEL=4;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_ENABLE_EDITOR</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)PCHMaster</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;xxhash.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_ENABLE_EXTENDED_ALIGNED_STORAGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;SIK_LOG_LEVEL=0;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)PCHMaster</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;xxhash.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libs\imgui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Libs\imgui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Libs\imgui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Libs\imgui\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Libs\imgui\imgui_impl_sdl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Libs\imgui\imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Libs\imgui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Address.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationData.cpp" />
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="AssimpHelper.cpp" />
+    <ClCompile Include="Behaviour.cpp" />
+    <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="Bounds.cpp" />
+    <ClCompile Include="BoxGeometry.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="BVHierarchy.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CollisionArbiter.cpp" />
+    <ClCompile Include="CollisionDebugDrawing.cpp" />
+    <ClCompile Include="CollisionInfo.cpp" />
+    <ClCompile Include="CollisionProperties.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="EasingFunction.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FadePanel.cpp" />
+    <ClCompile Include="FBO.cpp" />
+    <ClCompile Include="FontTextures.cpp" />
+    <ClCompile Include="ForceGenerators.cpp" />
+    <ClCompile Include="FrameRateManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="GUIObject.cpp" />
+    <ClCompile Include="GUIObjectManager.cpp" />
+    <ClCompile Include="GUIRenderer.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GameStateManager.cpp" />
+    <ClCompile Include="ImGuiWindow.cpp" />
+    <ClCompile Include="InputAction.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="EngineMain.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LogManager.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="MotionProperties.cpp" />
+    <ClCompile Include="MSAA.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="RandomGenerator.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="Reflector.cpp" />
+    <ClCompile Include="CollidablePrimitives.cpp" />
+    <ClCompile Include="RenderCam.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="GraphicsManager.cpp" />
+    <ClCompile Include="MemoryResources.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="ScriptingManager.cpp" />
+    <ClCompile Include="Serializer.cpp" />
+    <ClCompile Include="SkinnedMesh.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="stbi_impl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FrameTimer.cpp" />
+    <ClCompile Include="StringID.cpp" />
+    <ClCompile Include="TestComp.cpp" />
+    <ClCompile Include="GUIText.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="VQS.cpp" />
+    <ClCompile Include="WorldEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libs\imgui\imconfig.h" />
+    <ClInclude Include="..\..\Libs\imgui\imgui.h" />
+    <ClInclude Include="..\..\Libs\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\Libs\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\..\Libs\imgui\imgui_impl_sdl.h" />
+    <ClInclude Include="..\..\Libs\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\Libs\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\Libs\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\Libs\imgui\imstb_truetype.h" />
+    <ClInclude Include="Address.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationData.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="AssimpHelper.h" />
+    <ClInclude Include="Behaviour.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="Bounds.h" />
+    <ClInclude Include="BoxGeometry.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="BVHierarchy.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CollisionArbiter.h" />
+    <ClInclude Include="CollisionDebugDrawing.h" />
+    <ClInclude Include="CollisionInfo.h" />
+    <ClInclude Include="CollisionProperties.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="EasingFunction.h" />
+    <ClInclude Include="EngineMain.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="FadePanel.h" />
+    <ClInclude Include="FBO.h" />
+    <ClInclude Include="FixedObjectPool.h" />
+    <ClInclude Include="FontTextures.h" />
+    <ClInclude Include="ForceGenerators.h" />
+    <ClInclude Include="FrameRateManager.h" />
+    <ClInclude Include="GameInterface.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="DLLStructs.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="GUIObject.h" />
+    <ClInclude Include="GUIObjectManager.h" />
+    <ClInclude Include="GUIRenderer.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GameStateManager.h" />
+    <ClInclude Include="ImGuiWindow.h" />
+    <ClInclude Include="InputAction.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="LogManager.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="MotionProperties.h" />
+    <ClInclude Include="MSAA.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="CollidablePrimitives.h" />
+    <ClInclude Include="PrototypeInterface.h" />
+    <ClInclude Include="RandomGenerator.h" />
+    <ClInclude Include="PlayState.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="Reflector.h" />
+    <ClInclude Include="RingBuffer.h" />
+    <ClInclude Include="RenderCam.h" />
+    <ClInclude Include="ScriptingManager.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="SIKTypes.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="GraphicsManager.h" />
+    <ClInclude Include="MemoryResources.h" />
+    <ClInclude Include="SkinnedMesh.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FrameTimer.h" />
+    <ClInclude Include="StringID.h" />
+    <ClInclude Include="TestComp.h" />
+    <ClInclude Include="GUIText.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="VQS.h" />
+    <ClInclude Include="WorldEditor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\JSON\AnchorSegment.json" />
+    <None Include="Assets\JSON\BehaviourObject2.json" />
+    <None Include="Assets\JSON\BigCarEnemy.json" />
+    <None Include="Assets\JSON\BuildingPlayerObj.json" />
+    <None Include="Assets\JSON\car_dmg.json" />
+    <None Include="Assets\JSON\car_dmg_10.json" />
+    <None Include="Assets\JSON\car_dmg_33.json" />
+    <None Include="Assets\JSON\car_dmg_66.json" />
+    <None Include="Assets\JSON\ChainAnchor.json" />
+    <None Include="Assets\JSON\ChainLink.json" />
+    <None Include="Assets\JSON\ChainSegment.json" />
+    <None Include="Assets\JSON\CharacterControllerObj.json" />
+    <None Include="Assets\JSON\character_controls.json" />
+    <None Include="Assets\JSON\CollectableObj.json" />
+    <None Include="Assets\JSON\CollectableObject.json" />
+    <None Include="Assets\JSON\CombatGUI.json" />
+    <None Include="Assets\JSON\CombatTurretControls.json" />
+    <None Include="Assets\JSON\CombatEnemy.json" />
+    <None Include="Assets\JSON\CombatFloor.json" />
+    <None Include="Assets\JSON\CombatPlayer.json" />
+    <None Include="Assets\JSON\CombatPlayerControls.json" />
+    <None Include="Assets\JSON\CompassObj.json" />
+    <None Include="Assets\JSON\CraneEnemy.json" />
+    <None Include="Assets\JSON\CraneTower.json" />
+    <None Include="Assets\JSON\Debris.json" />
+    <None Include="Assets\JSON\DebugScene.json" />
+    <None Include="Assets\JSON\DestructibleObj.json" />
+    <None Include="Assets\JSON\Countdowntimer_gui.json" />
+    <None Include="Assets\JSON\FloorObjectIntro.json" />
+    <None Include="Assets\JSON\GameBoxAnchored.json" />
+    <None Include="Assets\JSON\GameBoxMetal.json" />
+    <None Include="Assets\JSON\GameBoxTest.json" />
+    <None Include="Assets\JSON\GameOcean.json" />
+    <None Include="Assets\JSON\GamePlayer.json" />
+    <None Include="Assets\JSON\GamePlayerControls.json" />
+    <None Include="Assets\JSON\GamePlayerTwo.json" />
+    <None Include="Assets\JSON\GamePlayerTwoControls.json" />
+    <None Include="Assets\JSON\ConstructionArena.json" />
+    <None Include="Assets\JSON\garage.json" />
+    <None Include="Assets\JSON\GarageScene.json" />
+    <None Include="Assets\JSON\GarageTransport.json" />
+    <None Include="Assets\JSON\GenericCarEnemy.json" />
+    <None Include="Assets\JSON\gui_action_map.json" />
+    <None Include="Assets\JSON\HealthCollectible.json" />
+    <None Include="Assets\JSON\JunkyardScene.json" />
+    <None Include="Assets\JSON\junkyard_final.json" />
+    <None Include="Assets\JSON\Magnet.json" />
+    <None Include="Assets\JSON\ModelObject.json" />
+    <None Include="Assets\JSON\camera_controls.json" />
+    <None Include="Assets\JSON\AudioObject.json" />
+    <None Include="Assets\JSON\FloorObject.json" />
+    <None Include="Assets\JSON\GameObjectTest_0.json" />
+    <None Include="Assets\JSON\GameObjectTest_1.json" />
+    <None Include="Assets\JSON\GameObjectTest_2.json" />
+    <None Include="Assets\JSON\GameObjectTest_3.json" />
+    <None Include="Assets\JSON\monster_truck.json" />
+    <None Include="Assets\JSON\MuscleBeachArena.json" />
+    <None Include="Assets\JSON\muscle_beach.json" />
+    <None Include="Assets\JSON\muscle_car.json" />
+    <None Include="Assets\JSON\MuscleBeachArenaDebug.json" />
+    <None Include="Assets\JSON\ObjectForAudio.json" />
+    <None Include="Assets\JSON\PlayerObjectScene.json" />
+    <None Include="Assets\JSON\prototype1_character_controls_wasd.json" />
+    <None Include="Assets\JSON\PrototypeBuildingScene.json" />
+    <None Include="Assets\JSON\PrototypeCombat.json" />
+    <None Include="Assets\JSON\PlayerObj.json" />
+    <None Include="Assets\JSON\prototype1_character_controls.json" />
+    <None Include="Assets\JSON\ptPlaceHolder.json" />
+    <None Include="Assets\JSON\RoadObject.json" />
+    <None Include="Assets\JSON\RoadObject2.json" />
+    <None Include="Assets\JSON\RoadObject3.json" />
+    <None Include="Assets\JSON\RoadObject4.json" />
+    <None Include="Assets\JSON\RoadObject5.json" />
+    <None Include="Assets\JSON\RoadObject6.json" />
+    <None Include="Assets\JSON\RoadObject7.json" />
+    <None Include="Assets\JSON\RoadObject8.json" />
+    <None Include="Assets\JSON\SmallCarEnemy.json" />
+    <None Include="Assets\JSON\StaticAnchorObj.json" />
+    <None Include="Assets\JSON\TestComponent.json" />
+    <None Include="Assets\JSON\TestObject.json" />
+    <None Include="Assets\JSON\TestObject2.json" />
+    <None Include="Assets\JSON\TestScene.json" />
+    <None Include="Assets\JSON\test_gui.json" />
+    <None Include="Assets\JSON\test_gui_prototype_building.json" />
+    <None Include="Assets\JSON\TurretBase.json" />
+    <None Include="Assets\JSON\TurretEnemy.json" />
+    <None Include="Assets\JSON\VersusScene.json" />
+    <None Include="Assets\JSON\versus_camera_controls.json" />
+    <None Include="Assets\JSON\WaypointObj.json" />
+    <None Include="Assets\JSON\WreckingBall.json" />
+    <None Include="Assets\Manifest\StartupAssets.json" />
+    <None Include="Assets\Materials\blinn_phong.mat" />
+    <None Include="Assets\Materials\car.mat" />
+    <None Include="Assets\Materials\car_mat.mat" />
+    <None Include="Assets\Materials\construction_prop_mat.mat" />
+    <None Include="Assets\Materials\crane_arm.mat" />
+    <None Include="Assets\Materials\crane_tower.mat" />
+    <None Include="Assets\Materials\car_2.mat" />
+    <None Include="Assets\Materials\ggx_brdf.mat" />
+    <None Include="Assets\Materials\glow_blue.mat" />
+    <None Include="Assets\Materials\lit.mat" />
+    <None Include="Assets\Materials\model.mat" />
+    <None Include="Assets\Materials\monster_truck_mat.mat" />
+    <None Include="Assets\Materials\muscle_car_mat.mat" />
+    <None Include="Assets\Materials\nailgun_turret_mat.mat" />
+    <None Include="Assets\Materials\phong.mat" />
+    <None Include="Assets\Materials\solid_green.mat" />
+    <None Include="Assets\Materials\solid_red.mat" />
+    <None Include="Assets\Materials\solid_white_emission.mat" />
+    <None Include="Assets\Materials\street_mat.mat" />
+    <None Include="Assets\Materials\textured.mat" />
+    <None Include="Assets\Materials\textured_box.mat" />
+    <None Include="Assets\Materials\textured_collectable.mat" />
+    <None Include="Assets\Materials\textured_ground.mat" />
+    <None Include="Assets\Materials\textured_ground_intro.mat" />
+    <None Include="Assets\Materials\textured_health_collectible.mat" />
+    <None Include="Assets\Materials\textured_metal.mat" />
+    <None Include="Assets\Materials\textured_ocean.mat" />
+    <None Include="Assets\Materials\turret_base.mat" />
+    <None Include="Assets\Materials\turret_enemy.mat" />
+    <None Include="Assets\Scripts\building_player_script.lua" />
+    <None Include="Assets\Scripts\car_script.lua" />
+    <None Include="Assets\Scripts\collectable_obj.lua" />
+    <None Include="Assets\Scripts\combat_player.lua" />
+    <None Include="Assets\Scripts\destructible_obj.lua" />
+    <None Include="Assets\Scripts\generic_car_enemy.lua" />
+    <None Include="Assets\Scripts\magnet_script.lua" />
+    <None Include="Assets\Scripts\move_objects.lua" />
+    <None Include="Assets\Scripts\play_audio.lua" />
+    <None Include="Assets\Scripts\turret_enemy.lua" />
+    <None Include="Assets\Scripts\turret_script.lua" />
+    <None Include="Assets\Scripts\versus_camera.lua" />
+    <None Include="Assets\Shaders\background.frag" />
+    <None Include="Assets\Shaders\background.vert" />
+    <None Include="Assets\Shaders\blinn_phong.frag" />
+    <None Include="Assets\Shaders\blinn_phong.vert" />
+    <None Include="Assets\Shaders\bloom.comp" />
+    <None Include="Assets\Shaders\buffer_output.frag" />
+    <None Include="Assets\Shaders\buffer_output.vert" />
+    <None Include="Assets\Shaders\debug.frag" />
+    <None Include="Assets\Shaders\debug.vert" />
+    <None Include="Assets\Shaders\deferred_animated.frag" />
+    <None Include="Assets\Shaders\deferred_animated.vert" />
+    <None Include="Assets\Shaders\deferred_lighting.frag" />
+    <None Include="Assets\Shaders\deferred_lighting.vert" />
+    <None Include="Assets\Shaders\downsample.comp" />
+    <None Include="Assets\Shaders\geo_particles.frag" />
+    <None Include="Assets\Shaders\geo_particles.geom" />
+    <None Include="Assets\Shaders\geo_particles.vert" />
+    <None Include="Assets\Shaders\ggx_brdf.frag" />
+    <None Include="Assets\Shaders\ggx_brdf.vert" />
+    <None Include="Assets\Shaders\gbuffer.frag" />
+    <None Include="Assets\Shaders\gbuffer.vert" />
+    <None Include="Assets\Shaders\gui.frag" />
+    <None Include="Assets\Shaders\gui.vert" />
+    <None Include="Assets\Shaders\lit.frag" />
+    <None Include="Assets\Shaders\lit.vert" />
+    <None Include="Assets\Shaders\local_lights.frag" />
+    <None Include="Assets\Shaders\local_lights.vert" />
+    <None Include="Assets\Shaders\model.frag" />
+    <None Include="Assets\Shaders\model.vert" />
+    <None Include="Assets\Shaders\normals.frag" />
+    <None Include="Assets\Shaders\normals.geom" />
+    <None Include="Assets\Shaders\normals.vert" />
+    <None Include="Assets\Shaders\particles.frag" />
+    <None Include="Assets\Shaders\particles.vert" />
+    <None Include="Assets\Shaders\phong.frag" />
+    <None Include="Assets\Shaders\phong.vert" />
+    <None Include="Assets\Shaders\post_process.frag" />
+    <None Include="Assets\Shaders\post_process.vert" />
+    <None Include="Assets\Shaders\shadow.frag" />
+    <None Include="Assets\Shaders\shadow.vert" />
+    <None Include="Assets\Shaders\skydome.frag" />
+    <None Include="Assets\Shaders\skydome.vert" />
+    <None Include="Assets\Shaders\unlit.frag" />
+    <None Include="Assets\Shaders\unlit.shader" />
+    <None Include="Assets\Shaders\unlit.vert" />
+    <None Include="Assets\Manifest\AudioManifest.json" />
+    <None Include="Assets\Manifest\JSONManifest.json" />
+    <None Include="Assets\JSON\BehaviourObject.json" />
+    <None Include="Assets\Shaders\upsample.comp" />
+    <None Include="BVHierarchy.inl" />
+    <None Include="Collision.inl" />
+    <None Include="DefaultComponents.x" />
+    <None Include="Assets\Scripts\test_script.lua" />
+    <None Include="RigidBody.inl" />
+    <None Include="Serializer.tpp" />
+    <None Include="test_gui.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Condition="Exists('$(SolutionDir)\Solution.props')" Project="$(SolutionDir)\Solution.props" />
+</Project>

@@ -1,0 +1,22 @@
+{
+  "UP": {
+    "Keyboard": 26,
+    "Controller": 11,
+    "Axis": [ 1, -1 ]
+  },
+  "DOWN": {
+    "Keyboard": 22,
+    "Controller": 12,
+    "Axis": [ 1, 1 ]
+  },
+  "LEFT": {
+    "Keyboard": 4,
+    "Controller": 13,
+    "Axis": [ 0, -1 ]
+  },
+  "RIGHT": {
+    "Keyboard": 7,
+    "Controller": 14,
+    "Axis": [ 0, 1 ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "Name": "beach_gate",
+    "Components": {
+    "Transform":{
+    "position": [
+        2.055332570805035e-09,
+        3.2782554626464844e-07,
+        5.489839553833008
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "beach_gate.fbx",
+    "material": "muscle_beach_props_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        2.055332570805035e-09,
+        3.2782554626464844e-07,
+        5.489839553833008
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.0,
+        5.489839553833008,
+        11.0
+    ],
+    "motion_type": "Static"
+}
+    }
+}

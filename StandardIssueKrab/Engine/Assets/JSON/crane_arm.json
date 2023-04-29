@@ -1,0 +1,25 @@
+{
+    "Name": "crane_arm",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        -1.5894572413799324e-07,
+        9.02914047241211
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "crane_arm.fbx",
+    "material": "Material.002.mat"
+}    }
+}

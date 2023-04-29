@@ -1,0 +1,6 @@
+{
+    "diffuse": [0.7, 0.2, 0.1],
+    "specular": [0.3, 0.3, 0.3],
+    "roughness": 64.0,
+    "shader": "phong"
+}

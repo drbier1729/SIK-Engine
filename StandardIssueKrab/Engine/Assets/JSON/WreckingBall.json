@@ -1,0 +1,30 @@
+{
+  "Name": "WreckingBall",
+  "Components": {
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+      "motion_type": "Dynamic",
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.009
+    },
+    "MeshRenderer": {
+      "mesh": "Sphere",
+      "material": "textured_metal.mat"
+    },
+    "BallnChain": {
+      "parent_obj_name": "GamePlayer",
+      "anchor_offset": [ 0.0, 0.0, 1.5 ],
+      "chain_links_count": 4,
+      "ball_mass": 180.0,
+      "spring_coeff": 20000.0,
+      "damper_coeff": 1000.0,
+      "spring_rest_length": 0.8
+    }
+  }
+}

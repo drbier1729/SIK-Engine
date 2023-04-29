@@ -1,0 +1,26 @@
+{
+  "Name": "TurretBase",
+  "Components": {
+    "Transform": {
+      "scale": [ 2.0, 2.0, 2.0 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Static",
+      "aabb_halfwidths": [ 1.0, 2.0, 1.0 ],
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "turret_base.fbx",
+      "material": "turret_base.mat"
+    },
+    "ObjectHolder": {}
+  }
+}

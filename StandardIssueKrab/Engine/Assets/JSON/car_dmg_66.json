@@ -1,0 +1,25 @@
+{
+    "Name": "car_dmg_66",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "car_dmg_66.fbx",
+    "material": "car_mat.mat"
+}    }
+}

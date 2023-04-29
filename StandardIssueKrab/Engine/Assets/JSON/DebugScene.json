@@ -1,0 +1,75 @@
+{
+  "FloorObject": {
+    "Archetype": "FloorObjectIntro.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "scale": [
+          200.0,
+          200.0,
+          200.0
+        ],
+        "orientation": [
+          -90.00105285644531,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "Ocean": {
+    "Name": "Ocean",
+    "Archetype": "GameOcean.json"
+  },
+  "GarageTransporter": {
+    "Name": "garage_transporter",
+    "Archetype": "GarageTransport.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          34.0,
+          0.0,
+          -74.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "orientation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+
+  "bigCarPH_925": {
+    "Name": "bigCarPH_925",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "orientation": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "generic_car_enemy.lua"
+        ]
+      }
+    }
+  }
+}

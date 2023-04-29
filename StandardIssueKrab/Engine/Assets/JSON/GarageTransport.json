@@ -1,0 +1,11 @@
+{
+  "Name": "GarageTransport",
+  "Components": {
+    "Transform": {
+    },
+    "GarageTransport": {
+      "light_color": [ 504, 414, 6 ],
+      "transport_radius": 10
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "LoadFade": {
+    "Type": "FADEPANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 1280, 720 ],
+    "Color": [ 255, 0, 0, 255 ],
+    "Texture": "lose_texture.png",
+    "AltTexture": "transition1.png"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "FloorObject": {
+    "Archetype": "FloorObject.json",
+    "Components": {
+      "Transform": {
+        "position": [ 0.0, -1.0, 0.0 ],
+        "orientation": [ 90, 0, 0],
+        "scale": [ 200, 200, 200 ]
+      }
+    }
+  },
+  "PlayerObject": {
+    "Name": "PlayerObject_Player",
+    "Archetype": "BuildingPlayerObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ 5.0, 2.0, 5.0 ]
+      }
+    }
+  },
+  "DestructibleObject_0": {
+    "Name": "DestructibleObject_Destroyable_0",
+    "Archetype": "DestructibleObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ 10.0, 0.0, 0.0 ]
+      }
+    }
+  },
+  "DestructibleObject_1": {
+    "Name": "DestructibleObject_Destroyable_1",
+    "Archetype": "DestructibleObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ 10.0, 3.0, 0.0 ]
+      }
+    }
+  },
+    "DestructibleObject_2": {
+    "Name": "DestructibleObject_Destroyable_2",
+    "Archetype": "DestructibleObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ 10.0, 6.0, 0.0 ]
+      }
+    }
+  },
+      "DestructibleObject_3": {
+    "Name": "DestructibleObject_Destroyable_3",
+    "Archetype": "DestructibleObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ 0.0, 0.0, -8.0 ]
+      }
+    }
+  },
+      "DestructibleObject_4": {
+    "Name": "DestructibleObject_Destroyable_4",
+    "Archetype": "DestructibleObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ -10.0, 0.0, 10.0 ]
+      }
+    }
+  },
+  "DestructibleObject_5": {
+    "Name": "DestructibleObject_Destroyable_5",
+    "Archetype": "DestructibleObj.json",
+    "Components": {
+      "RigidBody": {
+        "position": [ 0.0, 0.0, 3.0 ]
+      }
+    }
+  }
+}

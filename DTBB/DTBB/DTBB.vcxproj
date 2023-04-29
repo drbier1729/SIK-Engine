@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b15aa940-802b-4901-8d1e-56e99f293182}</ProjectGuid>
+    <RootNamespace>DTBB</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Rohit_Punjabi\Documents\DigiPen Spring 2023\GAM 551\dp550-sikrab\Libs\FMOD\api\studio\inc;$(SolutionDir)..\StandardIssueKrab;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\glm;$(SolutionDir)..\Libs\FMOD\api\studio\inc\;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol</IncludePath>
+    <LibraryPath>$(Outdir);$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\assimp\lib\Release;$(SolutionDir)..\Libs\FMOD\api\studio\lib\x64;$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\freetype\lib\win64;$(SolutionDir)..\Libs\xxhash\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);$(SolutionDir)..\StandardIssueKrab;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\glm;$(SolutionDir)..\Libs\FMOD\api\studio\inc\;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol</IncludePath>
+    <LibraryPath>$(Outdir);$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\assimp\lib\Release;$(SolutionDir)..\Libs\FMOD\api\studio\lib\x64;$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\freetype\lib\win64;$(SolutionDir)..\Libs\xxhash\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_ENABLE_EXTENDED_ALIGNED_STORAGE;_ENABLE_EDITOR;SIK_LOG_LEVEL=4</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;glew32s.lib;opengl32.lib;assimp-vc143-mt.lib;Lua.lib;fmodL_vc.lib;freetype.lib;comdlg32.lib;Shell32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_ENABLE_EXTENDED_ALIGNED_STORAGE;SIK_LOG_LEVEL=0</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;glew32s.lib;opengl32.lib;assimp-vc143-mt.lib;Lua.lib;fmod_vc.lib;freetype.lib;comdlg32.lib;Shell32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Anchored.cpp" />
+    <ClCompile Include="Attachment.cpp" />
+    <ClCompile Include="BallnChain.cpp" />
+    <ClCompile Include="CarController.cpp" />
+    <ClCompile Include="Collectable.cpp" />
+    <ClCompile Include="CraneEnemy.cpp" />
+    <ClCompile Include="Debris.cpp" />
+    <ClCompile Include="DebugPhysicsInfo.cpp" />
+    <ClCompile Include="FadeState.cpp" />
+    <ClCompile Include="FollowCam.cpp" />
+    <ClCompile Include="Destroyable.cpp" />
+    <ClCompile Include="BaseState.cpp" />
+    <ClCompile Include="GameInterface.cpp" />
+    <ClCompile Include="GamePlayState.cpp" />
+    <ClCompile Include="GarageState.cpp" />
+    <ClCompile Include="GarageTransport.cpp" />
+    <ClCompile Include="GenericCarEnemy.cpp" />
+    <ClCompile Include="Health.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Magnet.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MetalBox.cpp" />
+    <ClCompile Include="ObjectHolder.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="Ocean.cpp" />
+    <ClCompile Include="PlayerCharacter.cpp" />
+    <ClCompile Include="ScriptInterface.cpp" />
+    <ClCompile Include="StartState.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TurretEnemy.cpp" />
+    <ClCompile Include="PromptState.cpp" />
+    <ClCompile Include="VersusState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Anchored.h" />
+    <ClInclude Include="Attachment.h" />
+    <ClInclude Include="BallnChain.h" />
+    <ClInclude Include="CarController.h" />
+    <ClInclude Include="Collectable.h" />
+    <ClInclude Include="CraneEnemy.h" />
+    <ClInclude Include="Debris.h" />
+    <ClInclude Include="DebugPhysicsInfo.h" />
+    <ClInclude Include="FadeState.h" />
+    <ClInclude Include="FollowCam.h" />
+    <ClInclude Include="Destroyable.h" />
+    <ClInclude Include="BaseState.h" />
+    <ClInclude Include="GamePlayState.h" />
+    <ClInclude Include="GarageState.h" />
+    <ClInclude Include="GarageTransport.h" />
+    <ClInclude Include="GenericCarEnemy.h" />
+    <ClInclude Include="Health.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Magnet.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="MetalBox.h" />
+    <ClInclude Include="ObjectHolder.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="Ocean.h" />
+    <ClInclude Include="PlayerCharacter.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScriptInterface.h" />
+    <ClInclude Include="StartState.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TurretEnemy.h" />
+    <ClInclude Include="PromptState.h" />
+    <ClInclude Include="VersusState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\CheatsHUD.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\lose_fade.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\quit_confirmation.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\credits_screen.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\garage_HUD_begin.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\garage_prompt.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\HUD.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\load_fade.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\options_menu.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\pause_menu.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\splash_screen.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\start_menu.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\tutorial_gui.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\versus_HUD.json" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\arena_unlocked.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\ball_upgrade_button.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\ball_upgrade_text.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\big_car_enemy_count.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\big_car_enemy_render_panel.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_back.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_cancel_quit.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_confirm_quit.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_credits.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_menu.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_mute_music.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_mute_sfx.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_options.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_quit.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_resume.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_start.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\construction_arena_button.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\destructible_count.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\small_car_enemy_count.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\small_car_enemy_render_panel.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\turret_enemy_render_panel.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\turret_enemy_count.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\health_flash.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\hud_health.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\hud_health_player2.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\hud_inventory.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\junkyard_arena_button.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\magnet_upgrade_button.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\magnet_upgrade_text.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\muscle_arena_button.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\options_change.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_boxes.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_drift.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_garage.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_magnet.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_move.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_enemy.lua" />
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_upgrade.lua" />
+    <None Include="GameComponents.x" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DTBB.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\DTBB.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,44 @@
+{
+    "Name": "barrier",
+    "Components": {
+    "Transform":{
+    "position": [
+        1.3173490742701688e-08,
+        4.3191772380879456e-10,
+        1.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "barrier.fbx",
+    "material": "construction_prop_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        1.3173490742701688e-08,
+        4.3191772380879456e-10,
+        1.0
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        0.6051866412162781,
+        1.0,
+        1.5
+    ],
+    "motion_type": "Static"
+}
+    }
+}

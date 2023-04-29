@@ -1,0 +1,21 @@
+{
+  "Name": "GameObjectTest3",
+  "Children": {
+
+  },
+
+  "Components": {
+    "TestComp": {},
+
+    "MeshRenderer": {
+      "mesh": "Plane",
+      "material": "textured.mat"
+    },
+
+    "Behaviour": {
+      "scripts": [
+        "move_objects.lua"
+      ]
+    }
+  }
+}

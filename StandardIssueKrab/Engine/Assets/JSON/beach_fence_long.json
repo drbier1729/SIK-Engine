@@ -1,0 +1,44 @@
+{
+    "Name": "beach_fence_long",
+    "Components": {
+    "Transform":{
+    "position": [
+        -5.0,
+        7.028696537017822,
+        0.8515399694442749
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "beach_fence_long.fbx",
+    "material": "muscle_beach_props_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        -5.0,
+        7.028696537017822,
+        0.8515399694442749
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        0.06721347570419312,
+        1.2588378190994263,
+        7.148845195770264
+    ],
+    "motion_type": "Static"
+}
+    }
+}

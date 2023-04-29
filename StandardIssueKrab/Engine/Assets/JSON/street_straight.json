@@ -1,0 +1,26 @@
+{
+    "Name": "street_straight",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        2.0,
+        2.0,
+        2.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "street_straight.fbx",
+    "material": "street_mat.mat"
+}
+    }
+}

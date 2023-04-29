@@ -1,0 +1,35 @@
+{
+  "Name": "TurretEnemy",
+  "Components": {
+    "Transform": {
+      "scale": [ 2.0, 2.0, 2.0 ]
+    },
+    "MeshRenderer": {
+      "mesh": "turret_top.fbx",
+      "material": "turret_enemy.mat"
+    },
+    "TurretEnemy": {
+      "aggro_radius": 20.0,
+      "target_name": "GamePlayer",
+      "bullet_damage": 1,
+      "damage_momentum": 1000.0,
+      "secs_per_bullet": 0.34,
+      "light_col": [ 1.8, 0.0001, 0.0001 ],
+      "explosion_radius": 15.0
+    },
+    "Behaviour": {
+      "scripts": [
+        "turret_enemy.lua"
+      ]
+    },
+    "Attachment": {
+      "attached_to": "<NO NAME>",
+      "follow": true,
+      "lock_orientation": false,
+      "pos_offset": [ 0.0, 3.0, 0.0 ]
+    },
+    "Health": {
+      "hp_max": 2
+    }
+  }
+}

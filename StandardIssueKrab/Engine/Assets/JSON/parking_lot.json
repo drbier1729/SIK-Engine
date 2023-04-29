@@ -1,0 +1,25 @@
+{
+    "Name": "parking_lot",
+    "Components": {
+    "Transform":{
+    "position": [
+        -108.94189453125,
+        -58.89415740966797,
+        -1.3498079776763916
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "parking_lot.fbx",
+    "material": "asphalt_mat.mat"
+}    }
+}

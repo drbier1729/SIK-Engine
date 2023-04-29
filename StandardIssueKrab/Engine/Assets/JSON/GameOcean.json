@@ -1,0 +1,22 @@
+{
+  "Name": "Ocean",
+  "Components": {
+    "Transform": {
+      "position": [ 127.5, 0.0, 0.0 ],
+      "scale": [ 100.0, 100.0, 25.0 ],
+      "orientation": [
+        -90,
+        0,
+        -90
+      ]
+    },
+    "MeshRenderer": {
+      "mesh": "Plane",
+      "material": "textured_ocean.mat"
+    },
+    "Ocean": {
+      "x_speed": 2.0,
+      "y_speed": 2.0
+    }
+  }
+}

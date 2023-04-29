@@ -1,0 +1,23 @@
+{
+    "Name": "CombatFloor",
+    "Components": {
+        "Transform": {
+            "position": [ 0.0, 1.0, 0.0 ],
+            "scale": [ 100.0, 1.0, 100.0 ]
+        },
+      "RigidBody": {
+        "position": [ 0.0, 1.0, 0.0 ],
+        "is_trigger": false,
+        "is_enabled": true,
+        "use_aabb_as_collider": true,
+        "motion_type": "Static",
+        "aabb_halfwidths": [ 100.0, 1.0, 100.0 ],
+        "friction": 0.2,
+        "restitution": 0.5
+      },
+        "MeshRenderer": {
+            "mesh": "Cube",
+            "material": "textured_ground.mat"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "junkyard_ground",
+    "Components": {
+    "Transform":{
+    "position": [
+        -3.835348606109619,
+        -87.33290100097656,
+        -1.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "junkyard_ground.fbx",
+    "material": "junkyard_ground_mat.mat"
+}    }
+}

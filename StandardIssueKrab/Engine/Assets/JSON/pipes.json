@@ -1,0 +1,44 @@
+{
+    "Name": "pipes",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.05181492865085602,
+        0.005120888352394104,
+        0.8446734547615051
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "pipes.fbx",
+    "material": "construction_prop_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        0.05181492865085602,
+        0.005120888352394104,
+        0.8446734547615051
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.5613164901733398,
+        0.8915925621986389,
+        3.9852802753448486
+    ],
+    "motion_type": "Static"
+}
+    }
+}

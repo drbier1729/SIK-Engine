@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{61ffb650-b3c6-4cfc-9013-4fe64355ba19}</ProjectGuid>
+    <RootNamespace>EngineTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(OutDir);$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)..\Libs\freetype\include;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\imgui;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\glm;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)..\Libs\freetype\lib\win64;$(OutDir);$(SolutionDir)..\Libs\FMOD\api\core\lib\x64;$(SolutionDir)..\Libs\glew-2.2.0\lib\Release\x64;$(SolutionDir)..\Libs\SDL2-2.24.0\lib\x64;$(SolutionDir)..\Libs\xxhash\lib;$(SolutionDir)..\Libs\assimp\lib\Release;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)..\Libs\freetype\include;$(SolutionDir)..\Libs\FMOD\api\core\inc\;$(SolutionDir)..\Libs\SDL2-2.24.0\include\;$(SolutionDir)..\Libs\stduuid\include;$(SolutionDir)..\Libs\spdlog-1.10.0\include;$(SolutionDir)..\Libs\glew-2.2.0\include\;$(SolutionDir)..\Libs\imgui;$(SolutionDir)..\Libs\xxhash\include;$(SolutionDir)..\Libs\constexpr-xxh3;$(SolutionDir)..\Libs\glm;$(SolutionDir)..\Libs\assimp\include;$(SolutionDir)..\Libs\rapidjson;$(SolutionDir)..\Libs\lua;$(SolutionDir)..\Libs\sol;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PROTOTYPE;_DEBUG;_CONSOLE;MEM_DEBUG;STR_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>freetype.lib;wsock32.lib;fmodL_vc.lib;Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;glew32s.lib;opengl32.lib;xxhash.lib;assimp-vc143-mt.lib;Lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_PROTOTYPE;NDEBUG;ENGINETEST_EXPORTS;_WINDOWS;_USRDLL;_ENABLE_EXTENDED_ALIGNED_STORAGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>freetype.lib;wsock32.lib;fmodL_vc.lib;Engine.lib;SDL2.lib;SDL2main.lib;glew32.lib;glew32s.lib;opengl32.lib;xxhash.lib;assimp-vc143-mt.lib;Lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioMixingTest.cpp" />
+    <ClCompile Include="CharacterControllerTest.cpp" />
+    <ClCompile Include="CollisionPrimitivesTest.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="FixedObjectPoolTest.cpp" />
+    <ClCompile Include="GameObjectTest.cpp" />
+    <ClCompile Include="GOandCompTest.cpp" />
+    <ClCompile Include="GUIObjectTest.cpp" />
+    <ClCompile Include="InputTests.cpp" />
+    <ClCompile Include="LocalLightsTest.cpp" />
+    <ClCompile Include="MemoryResourcesTest.cpp" />
+    <ClCompile Include="MeshTest.cpp" />
+    <ClCompile Include="ModelTest.cpp" />
+    <ClCompile Include="PacketSendRecvTest.cpp" />
+    <ClCompile Include="ResourceLoadingTest.cpp" />
+    <ClCompile Include="ReallyStressfulTest.cpp" />
+    <ClCompile Include="SceneLoadTest.cpp" />
+    <ClCompile Include="ScriptTest.cpp" />
+    <ClCompile Include="ParticlesTest.cpp" />
+    <ClCompile Include="SceneEditorTest.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TextureTest.cpp" />
+    <ClCompile Include="SanityTest.cpp" />
+    <ClCompile Include="SerializeTest.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestLauncher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioMixingTest.h" />
+    <ClInclude Include="CharacterControllerTest.h" />
+    <ClInclude Include="CollisionPrimitivesTest.h" />
+    <ClInclude Include="FixedObjectPoolTest.h" />
+    <ClInclude Include="GameObjectTest.h" />
+    <ClInclude Include="GOandCompTest.h" />
+    <ClInclude Include="GUIObjectTest.h" />
+    <ClInclude Include="InputTests.h" />
+    <ClInclude Include="LocalLightsTest.h" />
+    <ClInclude Include="MemoryResourcesTest.h" />
+    <ClInclude Include="MeshTest.h" />
+    <ClInclude Include="ModelTest.h" />
+    <ClInclude Include="PacketSendRecvTest.h" />
+    <ClInclude Include="ResourceLoadingTest.h" />
+    <ClInclude Include="ReallyStressfulTest.h" />
+    <ClInclude Include="SceneLoadTest.h" />
+    <ClInclude Include="ScriptTest.h" />
+    <ClInclude Include="ParticlesTest.h" />
+    <ClInclude Include="SceneEditorTest.h" />
+    <ClInclude Include="TextureTest.h" />
+    <ClInclude Include="RigidBodyDebugDrawingTestCode.h" />
+    <ClInclude Include="SanityTest.h" />
+    <ClInclude Include="SerializeTest.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TestLauncher.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

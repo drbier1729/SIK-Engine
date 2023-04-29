@@ -1,0 +1,42 @@
+{
+  "Panel1": {
+    "Type": "PANEL",
+    "Coords": [ 100, 50, 70 ],
+    "Dimensions": [ 200, 70 ],
+    "Color" :  [200, 102, 156],
+    "Embedded": {
+      "Panel1_Button1": {
+        "Type": "BUTTON",
+        "Coords": [ 20, 20 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 120, 112, 91 ],
+        "Action": "script.lua",
+        "Highlighted_index": 0
+      }
+    }
+  },
+  "Panel2": {
+    "Type": "PANEL",
+    "Coords": [ 100, 200 ],
+    "Dimensions": [ 200, 200 ],
+    "Color": [ 20, 112, 200 ],
+    "Embedded": {
+      "Panel2_Button1": {
+        "Type": "BUTTON",
+        "Coords": [ 30, 30 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 120, 112, 91 ],
+        "Action": "script.lua",
+        "Highlighted_index": 1
+      },
+      "Panel2_Button2": {
+        "Type": "BUTTON",
+        "Coords": [ 30, 130 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 120, 112, 91 ],
+        "Action": "script.lua",
+        "Highlighted_index": 2
+      }
+    }
+  }
+}

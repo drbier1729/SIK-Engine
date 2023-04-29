@@ -1,0 +1,22 @@
+{
+  "Name": "ChainLink",
+  "Components": {
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 0.01, 0.01, 0.01 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "aabb_halfwidths": [ 0.10, 0.10, 0.10 ],
+      "motion_type": "Dynamic",
+      "mass": 10.0,
+      "gravity_scale": 0.0,
+      "linear_damping": 0.005,
+      "is_trigger": true
+    },
+    "MeshRenderer": {
+      "mesh": "Cube",
+      "material": "textured_metal.mat"
+    }
+  }
+}

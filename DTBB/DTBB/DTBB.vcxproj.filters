@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CarController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Destroyable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCam.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacter.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInterface.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretEnemy.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BallnChain.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptInterface.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretEnemy.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Attachment.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectHolder.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="VersusState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCarEnemy.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CraneEnemy.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Debris.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Magnet.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Anchored.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StartState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalBox.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageTransport.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugPhysicsInfo.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocean.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CarController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCam.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="BallnChain.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptInterface.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretEnemy.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretEnemy.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BallnChain.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Attachment.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHolder.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="VersusState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericCarEnemy.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CraneEnemy.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Debris.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnet.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Anchored.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StartState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalBox.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageTransport.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugPhysicsInfo.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PromptState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocean.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{3e1480d2-26ea-43fb-9d2d-8936c6ee5297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{29904fb3-3489-44d1-95d9-76710b8515aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{802b0980-ef6a-430a-9548-0142428a490f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI">
+      <UniqueIdentifier>{90b26ab5-5676-45f7-bd02-ce5bf8bb2de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{0ff8010a-69fe-4dad-92ff-8d100b75cac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States">
+      <UniqueIdentifier>{a11ace74-e22d-480b-80a5-fee7cbb35b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI\JSON">
+      <UniqueIdentifier>{06c3ff22-a87e-4c7d-92be-28742a4a43e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI\Scripts">
+      <UniqueIdentifier>{d27a10be-9dfc-4840-8a65-0a1ec9f964a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI\Scripts\Instructions">
+      <UniqueIdentifier>{278e6804-29bc-4bf5-bff2-58de4be9e334}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameComponents.x">
+      <Filter>Components</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\HUD.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\hud_health.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\versus_HUD.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\hud_health_player2.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\hud_inventory.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\destructible_count.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\turret_enemy_count.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\health_flash.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\start_menu.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\load_fade.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\garage_HUD_begin.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_quit.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_start.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\ball_upgrade_button.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\ball_upgrade_text.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\construction_arena_button.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\junkyard_arena_button.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\muscle_arena_button.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\pause_menu.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_resume.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\garage_prompt.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\magnet_upgrade_button.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\magnet_upgrade_text.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\tutorial_gui.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\splash_screen.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\credits_screen.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_credits.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_move.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_enemy.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_drift.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_boxes.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_garage.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_upgrade.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\quit_confirmation.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\CheatsHUD.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_confirm_quit.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_cancel_quit.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\lose_fade.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\tutorial_magnet.lua">
+      <Filter>GameUI\Scripts\Instructions</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_options.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\JSON\options_menu.json">
+      <Filter>GameUI\JSON</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_back.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_mute_music.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_mute_sfx.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\button_menu.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\arena_unlocked.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\options_change.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\big_car_enemy_count.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\small_car_enemy_count.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\big_car_enemy_render_panel.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\small_car_enemy_render_panel.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+    <None Include="..\..\StandardIssueKrab\Engine\Assets\Scripts\turret_enemy_render_panel.lua">
+      <Filter>GameUI\Scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DTBB.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\DTBB.ico" />
+  </ItemGroup>
+</Project>

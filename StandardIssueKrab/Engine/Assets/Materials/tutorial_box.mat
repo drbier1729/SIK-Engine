@@ -1,0 +1,5 @@
+{
+  "base_color_texture": "crate_tutorial_diffuse.png",
+  "normal_map": "crate1_normal.jpg",
+  "shader": "lit"
+}

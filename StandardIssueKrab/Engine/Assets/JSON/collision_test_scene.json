@@ -1,0 +1,760 @@
+{
+    "FloorObject": {
+        "Archetype": "FloorObjectIntro.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "scale": [
+                    200.0,
+                    200.0,
+                    200.0
+                ],
+                "orientation": [
+                    -90.00105285644531,
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_14": {
+        "Name": "barrier_14",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -94.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_15": {
+        "Name": "barrier_15",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -91.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_16": {
+        "Name": "barrier_16",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -87.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_17": {
+        "Name": "barrier_17",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -84.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_18": {
+        "Name": "barrier_18",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -80.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_19": {
+        "Name": "barrier_19",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -77.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_20": {
+        "Name": "barrier_20",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -73.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_21": {
+        "Name": "barrier_21",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -70.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_22": {
+        "Name": "barrier_22",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -66.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_23": {
+        "Name": "barrier_23",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -63.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_24": {
+        "Name": "barrier_24",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -59.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_25": {
+        "Name": "barrier_25",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -56.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_26": {
+        "Name": "barrier_26",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -52.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_27": {
+        "Name": "barrier_27",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -49.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_28": {
+        "Name": "barrier_28",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -45.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_29": {
+        "Name": "barrier_29",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -42.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_30": {
+        "Name": "barrier_30",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -38.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_31": {
+        "Name": "barrier_31",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -35.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_32": {
+        "Name": "barrier_32",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -31.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_33": {
+        "Name": "barrier_33",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -28.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_34": {
+        "Name": "barrier_34",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -24.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_35": {
+        "Name": "barrier_35",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -21.49225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_36": {
+        "Name": "barrier_36",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -17.99225616455078
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_37": {
+        "Name": "barrier_37",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -14.492256164550781
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_38": {
+        "Name": "barrier_38",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -10.992256164550781
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_39": {
+        "Name": "barrier_39",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -7.492256164550781
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_40": {
+        "Name": "barrier_40",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -3.9922561645507813
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_41": {
+        "Name": "barrier_41",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    -0.49225616455078125
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    1.0000065565109253,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_42": {
+        "Name": "barrier_42",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -78.87252044677734,
+                    0.0,
+                    3.0077438354492188
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -1.0000065565109253,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_43": {
+        "Name": "barrier_43",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -99.41500091552734,
+                    0.0,
+                    32.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    1.0000040531158447,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_44": {
+        "Name": "barrier_44",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -62.54999923706055,
+                    0.0,
+                    5.458473205566406
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -29.000141143798828,
+                    0.0
+                ]
+            }
+        }
+    },
+    "barrier_45": {
+        "Name": "barrier_45",
+        "Archetype": "barrier.json",
+        "Components": {
+            "Transform": {
+                "position": [
+                    -61.54984664916992,
+                    0.0,
+                    1.9584741592407227
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "orientation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ]
+            }
+        }
+    }
+}

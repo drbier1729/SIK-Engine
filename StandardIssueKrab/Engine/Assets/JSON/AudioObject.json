@@ -1,0 +1,8 @@
+{
+  "Name": "AudioObject",
+  "Components": {
+    "Behaviour": {
+      "script_name": "play_audio.lua"
+    }
+  }
+}

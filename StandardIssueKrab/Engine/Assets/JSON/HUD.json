@@ -1,0 +1,179 @@
+{
+  "Player_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 30, 30 ],
+    "Dimensions": [ 70, 70 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Embedded": {
+      "HealthBar": {
+        "Type": "PANEL",
+        "Coords": [ 50, 5 ],
+        "Dimensions": [ 200, 30 ],
+        "Scale": [ 1.0, 1.0 ],
+        "Texture": "Rectangle_Red.png",
+        "Behaviour": {
+          "scripts": [
+            "hud_health.lua"
+          ]
+        }
+      },
+      "HealthIcon": {
+        "Type": "PANEL",
+        "Coords": [ 0, 0 ],
+        "Dimensions": [ 40, 40 ],
+        "Texture": "Heart.png",
+        "Behaviour": {
+          "scripts": [
+            "health_flash.lua"
+          ]
+        }
+      }
+    }
+  },
+  "ResourceCount_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 30, 100 ],
+    "Dimensions": [ 80, 80 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Embedded": {
+      "ResourceIcon": {
+        "Type": "PANEL",
+        "Coords": [ 0, 0 ],
+        "Dimensions": [ 197, 46 ],
+        "Texture": "Resource.png"
+      },
+      "ResourceCount_Text": {
+        "Type": "TEXT",
+        "Coords": [ 80, 30 ],
+        "Dimensions": [ 150, 150 ],
+        "Color": [ 200, 200, 200, 255 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 32
+        },
+        "Text": "00000",
+        "Behaviour": {
+          "scripts": [
+            "hud_inventory.lua"
+          ]
+        }
+      }
+    }
+  },
+  "TurretEnemyCount_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 1050, 20 ],
+    "Dimensions": [ 100, 100 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Behaviour": {
+      "scripts": [
+        "turret_enemy_render_panel.lua"
+      ]
+    },
+    "Embedded": {
+      "EnemyIcon": {
+        "Type": "PANEL",
+        "Coords": [ 0, 0 ],
+        "Dimensions": [ 209, 85 ],
+        "Texture": "Enemies_icon.png"
+      },
+      "EnemyCount_Text": {
+        "Type": "TEXT",
+        "Coords": [ 70,60 ],
+        "Dimensions": [ 150, 150 ],
+        "Color": [ 200, 200, 200, 255 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 32
+        },
+        "Text": "00/10",
+        "Behaviour": {
+          "scripts": [
+            "turret_enemy_count.lua"
+          ]
+        }
+      }
+    }
+  },
+  "SmallCarEnemyCount_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 1050, 115 ],
+    "Dimensions": [ 202, 60 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Behaviour": {
+      "scripts": [
+        "small_car_enemy_render_panel.lua"
+      ]
+    },
+    "Embedded": {
+      "EnemyIcon": {
+        "Type": "PANEL",
+        "Coords": [ 0, 0 ],
+        "Dimensions": [ 202, 60 ],
+        "Texture": "SmallCarEnemies_icon.png"
+      },
+      "EnemyCount_Text": {
+        "Type": "TEXT",
+        "Coords": [ 70, 45 ],
+        "Dimensions": [ 150, 150 ],
+        "Color": [ 200, 200, 200, 255 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 32
+        },
+        "Text": "00/10",
+        "Behaviour": {
+          "scripts": [
+            "small_car_enemy_count.lua"
+          ]
+        }
+      }
+    }
+  },
+  "BigCarEnemyCount_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 1050, 185 ],
+    "Dimensions": [ 202, 62 ],
+    "Color": [ 0, 0, 0, 0 ],
+    "Behaviour": {
+      "scripts": [
+        "big_car_enemy_render_panel.lua"
+      ]
+    },
+    "Embedded": {
+      "EnemyIcon": {
+        "Type": "PANEL",
+        "Coords": [ 0, 0 ],
+        "Dimensions": [ 202, 62 ],
+        "Texture": "BigCarEnemies_icon.png"
+      },
+      "EnemyCount_Text": {
+        "Type": "TEXT",
+        "Coords": [ 70, 45 ],
+        "Dimensions": [ 150, 150 ],
+        "Color": [ 200, 200, 200, 255 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 32
+        },
+        "Text": "00/10",
+        "Behaviour": {
+          "scripts": [
+            "big_car_enemy_count.lua"
+          ]
+        }
+      }
+    }
+  },
+  "ArenaUnlocked_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 320, 20 ],
+    "Dimensions": [ 640, 125 ],
+    "Texture": "arena_unlocked.png",
+    "Behaviour": {
+      "scripts": [
+        "arena_unlocked.lua"
+      ]
+    }
+  }
+}

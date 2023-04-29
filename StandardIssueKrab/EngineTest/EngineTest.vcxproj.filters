@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="TestLauncher.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="SanityTest.cpp">
+      <Filter>Tests\SanityTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryResourcesTest.cpp">
+      <Filter>Tests\MemResTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTest.cpp">
+      <Filter>Tests\GameObjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedObjectPoolTest.cpp">
+      <Filter>Tests\FixedObjectPoolTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTest.cpp">
+      <Filter>Tests\GraphicsTests</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeTest.cpp">
+      <Filter>Tests\SerializeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshTest.cpp">
+      <Filter>Tests\GraphicsTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTests.cpp">
+      <Filter>Tests\InputTest</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSendRecvTest.cpp">
+      <Filter>Tests\NetworkTests</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionPrimitivesTest.cpp">
+      <Filter>Tests\CollisionPrimitivesTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GOandCompTest.cpp">
+      <Filter>Tests\GameObjectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIObjectTest.cpp">
+      <Filter>Tests\GUITests</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTest.cpp">
+      <Filter>Tests\ScriptTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlesTest.cpp">
+      <Filter>Tests\ParticlesTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoadingTest.cpp">
+      <Filter>Tests\ResourceLoadingTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTest.cpp">
+      <Filter>Tests\ModelTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ReallyStressfulTest.cpp">
+      <Filter>Tests\ReallyStressfulTest</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMixingTest.cpp">
+      <Filter>Tests\AudioMixingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterControllerTest.cpp">
+      <Filter>Tests\CharacterControllerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalLightsTest.cpp">
+      <Filter>Tests\LocalLightsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoadTest.cpp">
+      <Filter>Tests\SerializeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorTest.cpp">
+      <Filter>Tests\SceneEditorTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestLauncher.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SanityTest.h">
+      <Filter>Tests\SanityTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryResourcesTest.h">
+      <Filter>Tests\MemResTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectTest.h">
+      <Filter>Tests\GameObjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedObjectPoolTest.h">
+      <Filter>Tests\FixedObjectPoolTest</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyDebugDrawingTestCode.h">
+      <Filter>Tests\RigidBodyTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTest.h">
+      <Filter>Tests\GraphicsTests</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTests.h">
+      <Filter>Tests\InputTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeTest.h">
+      <Filter>Tests\SerializeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshTest.h">
+      <Filter>Tests\GraphicsTests</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSendRecvTest.h">
+      <Filter>Tests\NetworkTests</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPrimitivesTest.h">
+      <Filter>Tests\CollisionPrimitivesTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GOandCompTest.h">
+      <Filter>Tests\GameObjectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIObjectTest.h">
+      <Filter>Tests\GUITests</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTest.h">
+      <Filter>Tests\ScriptTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlesTest.h">
+      <Filter>Tests\ParticlesTests</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoadingTest.h">
+      <Filter>Tests\ResourceLoadingTests</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelTest.h">
+      <Filter>Tests\ModelTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ReallyStressfulTest.h">
+      <Filter>Tests\ReallyStressfulTest</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMixingTest.h">
+      <Filter>Tests\AudioMixingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterControllerTest.h">
+      <Filter>Tests\CharacterControllerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalLightsTest.h">
+      <Filter>Tests\LocalLightsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoadTest.h">
+      <Filter>Tests\SerializeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorTest.h">
+      <Filter>Tests\SceneEditorTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{73dc6734-103f-427a-84ff-38d1f720e19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{61c4af15-4cc0-4198-ab50-ea3d6422f205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\SanityTest">
+      <UniqueIdentifier>{ebed67f7-aa7f-419f-a0a8-679e456bb872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\MemResTest">
+      <UniqueIdentifier>{5961d6dc-07a0-461a-b7b5-332b74352684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\GameObjectTest">
+      <UniqueIdentifier>{b8b41e4b-0a3d-4975-a2bc-4c746321866a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\FixedObjectPoolTest">
+      <UniqueIdentifier>{72fb5ff1-79d2-47cb-ba1f-3f90376a3f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\RigidBodyTest">
+      <UniqueIdentifier>{1a5efcbd-2d08-4a07-9304-8d4adde783ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\GraphicsTests">
+      <UniqueIdentifier>{a43fabc1-431c-412e-8240-0815d746caba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\CollisionPrimitivesTest">
+      <UniqueIdentifier>{93561ad2-5d2b-48e3-932f-e069f5b8514e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\InputTest">
+      <UniqueIdentifier>{ab3f2f90-631b-4322-b843-762e05a0773d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\SerializeTest">
+      <UniqueIdentifier>{6b4d6d25-fe81-4f67-8968-c4b6a150c000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\NetworkTests">
+      <UniqueIdentifier>{58e28306-f1e9-4346-af09-45b129821b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\GUITests">
+      <UniqueIdentifier>{44c7e230-372a-402a-8528-35e213135176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ScriptTest">
+      <UniqueIdentifier>{6840b21b-47ed-4451-bdf8-46aee9e5227e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ParticlesTests">
+      <UniqueIdentifier>{b64cbbc7-f345-4c1a-b243-9403fb1f3dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ResourceLoadingTests">
+      <UniqueIdentifier>{f24ece0d-4f5a-4f46-8288-f9c2d874fb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ModelTest">
+      <UniqueIdentifier>{b44f386e-5f54-4987-a131-798ea457c7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ReallyStressfulTest">
+      <UniqueIdentifier>{fb1afb32-112f-4bb9-b3a8-fee68ca4192e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AudioMixingTest">
+      <UniqueIdentifier>{7e27947f-96cd-4284-b9b8-c989f366b5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\CharacterControllerTest">
+      <UniqueIdentifier>{67332742-85c8-4503-86d1-d8279de183e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\LocalLightsTest">
+      <UniqueIdentifier>{70207f0f-d789-45a5-910f-8b73e88716f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\SceneEditorTest">
+      <UniqueIdentifier>{c9592fae-4263-44ba-8c33-d15f5693604c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

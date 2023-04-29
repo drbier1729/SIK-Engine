@@ -1,0 +1,41 @@
+{
+  "sound.mp3": {
+    "is_stream": true,
+    "tag": "BACKGROUND"
+  },
+
+  "honk.wav": {
+    "is_stream": false,
+    "tag": "HONK"
+  },
+
+  "bonk.wav": {
+    "is_stream": false,
+    "tag": "CRASH"
+  },
+
+  "beep.wav": {
+    "is_stream": false,
+    "tag": "BEEP"
+  },
+
+  "fallen.wav": {
+    "is_stream": false,
+    "tag": "FALLEN"
+  },
+
+  "background.mp3": {
+    "is_stream": false,
+    "tag": "DRIVEBACKGROUND"
+  },
+
+  "car_start_idle.wav": {
+    "is_stream": false,
+    "tag": "CARSTART"
+  },
+
+  "revving.wav": {
+    "is_stream": false,
+    "tag": "REVVING"
+  }
+}

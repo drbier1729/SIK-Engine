@@ -1,0 +1,70 @@
+{
+  "Panel1": {
+    "Type": "PANEL",
+    "Coords": [ 1120, 30 ],
+    "Dimensions": [ 150, 70 ],
+    "Color": [ 0, 0, 0 ],
+    "Embedded": {
+      "Panel1_Button1": {
+        "Type": "BUTTON",
+        "Coords": [ 0, 0 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 180, 112, 59 ],
+        "Action": "script.lua",
+        "Highlighted_index": 0
+      },
+
+      "Start_text": {
+        "Type": "TEXT",
+        "Coords": [ 30, 50 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 50
+        },
+        "Text": "Start"
+      }
+    }
+  },
+
+  "Panel2": {
+    "Type": "PANEL",
+    "Coords": [ 500, 30 ],
+    "Dimensions": [ 150, 70 ],
+    "Color": [ 250, 213, 165 ],
+    "Embedded": {
+      "CountdownCount_text": {
+        "Type": "TEXT",
+        "Coords": [ 50, 50 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 24
+        },
+        "Text": "60.0"
+      }
+    }
+  },
+
+  "Panel3": {
+    "Type": "PANEL",
+    "Coords": [ 20, 30 ],
+    "Dimensions": [ 150, 70 ],
+    "Color": [ 250, 213, 165 ],
+    "Embedded": {
+      "CountdownCount_text": {
+        "Type": "TEXT",
+        "Coords": [ 50, 50 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 24
+        },
+        "Text": "000"
+      }
+    }
+  }
+}

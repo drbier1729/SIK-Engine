@@ -1,0 +1,18 @@
+{
+    "Name": "beach_water",
+    "Components": {
+      "Transform":{
+        "position": [ 0.0, -5.0, -474.52752685546875 ],
+        "orientation": [ 0.0, 0.0, 0.0 ],
+        "scale": [ 1.0, 1.0, 1.0 ]
+      },
+      "MeshRenderer":{
+        "mesh": "beach_water.fbx",
+        "material": "water_mat.mat"
+      },
+      "Ocean": {
+        "x_speed": 0.75,
+        "y_speed": 0.75
+      }
+    }
+}

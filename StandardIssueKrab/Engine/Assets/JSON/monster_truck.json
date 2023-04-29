@@ -1,0 +1,44 @@
+{
+    "Name": "monster_truck",
+    "Components": {
+    "Transform":{
+    "position": [
+        1.7881393432617188e-07,
+        -0.2133316993713379,
+        3.105393409729004
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "monster_truck.fbx",
+    "material": "monster_truck_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        1.7881393432617188e-07,
+        -0.2133316993713379,
+        3.105393409729004
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        3.098006248474121,
+        3.2505390644073486,
+        6.391298294067383
+    ],
+    "motion_type": "Static"
+}
+    }
+}

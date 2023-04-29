@@ -1,0 +1,4 @@
+{
+  "base_color_texture": "car_green_tex.png",
+  "shader": "lit"
+}

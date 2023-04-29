@@ -1,0 +1,92 @@
+{
+  "KillCount_panel": {
+    "Type": "PANEL",
+    "Coords": [ 50, 50 ],
+    "Dimensions": [ 200, 100 ],
+    "Color" :  [120, 112, 91],
+    "Embedded": {
+      "KillCount_title": {
+        "Type": "TEXT",
+        "Coords": [ 20, 40 ],
+        "Dimensions": [ 150, 80 ],
+        "Color": [ 150, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 36
+        },
+        "Text": "Kill Count"
+      },
+      "KillCount_value": {
+        "Type": "TEXT",
+        "Coords": [ 100, 80 ],
+        "Dimensions": [ 200, 100 ],
+        "Color": [ 180, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 36
+        },
+        "Text": "xx"
+      }
+    }
+  },
+  "Health_panel": {
+    "Type": "PANEL",
+    "Coords": [ 900, 50 ],
+    "Dimensions": [ 200, 100 ],
+    "Color": [ 120, 112, 91 ],
+    "Embedded": {
+      "Health_title": {
+        "Type": "TEXT",
+        "Coords": [ 20, 40 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 150, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 36
+        },
+        "Text": "Health"
+      },
+      "Health_value": {
+        "Type": "TEXT",
+        "Coords": [ 100, 80 ],
+        "Dimensions": [ 200, 100 ],
+        "Color": [ 180, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 36
+        },
+        "Text": "xx"
+      }
+    }
+  },
+  "ResourceCount_Panel": {
+    "Type": "PANEL",
+    "Coords": [ 100, 50 ],
+    "Dimensions": [ 200, 80 ],
+    "Color": [ 0, 0, 10 ],
+    "Embedded": {
+      "ResourceCount_Title": {
+        "Type": "TEXT",
+        "Coords": [ 30, 30 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 50, 50 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 24
+        },
+        "Text": "Resource Count"
+      },
+      "ResourceCount": {
+        "Type": "TEXT",
+        "Coords": [ 140, 60 ],
+        "Dimensions": [ 150, 70 ],
+        "Color": [ 250, 0, 0 ],
+        "Font": {
+          "ttf_name": "Bahiana-Regular.ttf",
+          "pixel_height": 18
+        },
+        "Text": "x0"
+      }
+    }
+  }
+}

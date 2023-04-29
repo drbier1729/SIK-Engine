@@ -1,0 +1,13 @@
+{
+  "GaragePromptPanel": {
+    "Type": "PANEL",
+    "Coords": [ 390, 580 ],
+    "Dimensions": [ 500, 120 ],
+    "Texture": "instructions_garage_keyboard.png",
+    "Behaviour": {
+      "scripts": [
+        "tutorial_garage.lua"
+      ]
+    }
+  }
+}

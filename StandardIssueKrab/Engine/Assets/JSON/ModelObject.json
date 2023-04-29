@@ -1,0 +1,21 @@
+{
+  "Name": "ModelObject",
+  "Children": {
+	  
+  },
+  "Components": {
+    "Transform": {
+      "position": [ -5.0, -1.0, 5.0 ]
+    },
+
+    "MeshRenderer": {
+      "material": "model.mat",
+      "model": {
+        "name": "dancing_vampire.dae",
+        "animations": [
+          "dancing_vampire.dae"
+        ]
+      }
+    }
+  }
+}

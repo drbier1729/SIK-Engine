@@ -1,0 +1,25 @@
+{
+    "Name": "parking_line",
+    "Components": {
+    "Transform":{
+    "position": [
+        -56.29107666015625,
+        -87.08991241455078,
+        -1.272277593612671
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "parking_line.fbx",
+    "material": "muscle_beach_props_mat.mat"
+}    }
+}

@@ -1,0 +1,61 @@
+{
+  "TestObject0": {
+    "Name" : "TestObject0",
+    "Archetype": "TestObject.json"
+  },
+
+  "TestObject1": {
+    "Name": "TestObject1",
+    "Components": {
+      "Transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "orientation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "TestComp": {},
+      "MeshRenderer": {
+        "mesh": "Cube",
+        "material": "lit.mat"
+      }
+    }
+  },
+  "TestObject2": {
+    "Name": "TestObject2",
+    "Archetype": "BehaviourObject2.json"
+  },
+  "TestObject3": {
+    "Name": "TestObject3",
+    "Archetype": "ModelObject.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          -10.0,
+          -1.0,
+          0.0
+        ],
+        "orientation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  }
+}

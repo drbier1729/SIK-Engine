@@ -1,0 +1,30 @@
+{
+  "FloorObject": {
+      "Name": "FloorObject",
+      "Archetype": "CombatFloor.json"
+  },
+
+  "Gadget": {
+    "Name": "Gadget",
+    "Components": {
+      "Behaviour": {
+        "scripts": [
+          "turret_script.lua"
+        ]
+      },
+
+      "MeshRenderer": {
+        "mesh": "sphere.fbx",
+        "material": "solid_green.mat"
+      },
+
+      "Attachment": {
+        "AttachedTo": "CombatPlayer",
+        "follow": true,
+        "pos_offset": [ 0.0, 2.0, 0.0 ]
+      },
+
+      "Turret": {}
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "construction_ground",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        -2.0
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "construction_ground.fbx",
+    "material": "gravel_mat.mat"
+}    }
+}

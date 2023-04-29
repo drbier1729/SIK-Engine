@@ -1,0 +1,57 @@
+{
+  "UP": {
+    "Keyboard": 26,
+    "Controller": 11,
+    "Axis": [ 1, -1 ]
+  },
+  "DOWN": {
+    "Keyboard": 22,
+    "Controller": 12,
+    "Axis": [ 1, 1 ]
+  },
+  "LEFT": {
+    "Keyboard": 4,
+    "Controller": 13,
+    "Axis": [ 0, -1 ]
+  },
+  "RIGHT": {
+    "Keyboard": 7,
+    "Controller": 14,
+    "Axis": [ 0, 1 ]
+  },
+  "ACTION_1": {
+    "Keyboard": 225,
+    "Controller": 0,
+    "Mouse": 1
+  },
+  "ACTION_2": {
+    "Keyboard": 225,
+    "Controller": 1,
+    "Mouse": 4
+  },
+  "ACTION_3": {
+    "Keyboard": 54,
+    "Controller": 12
+  },
+  "ACTION_4": {
+    "Keyboard": 55,
+    "Controller": 11
+  },
+  "ACTION_SELECT": {
+    "Keyboard": 42,
+    "Controller": 4
+  },
+  "UP_ALT": {
+    "Axis": [ 3, 1 ]
+  },
+  "DOWN_ALT": {
+    "Axis": [ 3, -1 ]
+  },
+  "LEFT_ALT": {
+    "Axis": [ 2, -1 ]
+  },
+  "RIGHT_ALT": {
+    "Axis": [ 2, 1 ]
+  }
+
+}

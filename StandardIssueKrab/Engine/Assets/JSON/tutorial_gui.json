@@ -1,0 +1,58 @@
+{
+  "PopupInstructionsPanel": {
+    "Type": "PANEL",
+    "Coords": [ 0, 0 ],
+    "Dimensions": [ 0, 0 ],
+    "Color": [ 0, 0, 0, 0 ],
+
+    "Embedded": {
+      "MovementPanel": {
+        "Type": "PANEL",
+        "Coords": [ 390, 580 ],
+        "Dimensions": [ 500, 120 ],
+        "Texture": "instructions_movement_keyboard.png",
+        "Behaviour": {
+          "scripts": [
+            "tutorial_move.lua"
+          ]
+        }
+      },
+
+      "DriftPanel": {
+        "Type": "PANEL",
+        "Coords": [ 390, 580 ],
+        "Dimensions": [ 500, 120 ],
+        "Texture": "instructions_drift_keyboard.png",
+        "Behaviour": {
+          "scripts": [
+            "tutorial_drift.lua"
+          ]
+        }
+      },
+
+      "TurretEnemyPanel": {
+        "Type": "PANEL",
+        "Coords": [ 320, 20 ],
+        "Dimensions": [ 640, 125 ],
+        "Texture": "instructions_enemy.png",
+        "Behaviour": {
+          "scripts": [
+            "tutorial_enemy.lua"
+          ]
+        }
+      },
+
+      "BoxesPanel": {
+        "Type": "PANEL",
+        "Coords": [ 320, 20 ],
+        "Dimensions": [ 640, 125 ],
+        "Texture": "instructions_boxes.png",
+        "Behaviour": {
+          "scripts": [
+            "tutorial_boxes.lua"
+          ]
+        }
+      }
+    }
+  }
+}

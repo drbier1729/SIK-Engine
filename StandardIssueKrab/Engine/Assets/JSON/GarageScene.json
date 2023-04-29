@@ -1,0 +1,24 @@
+{
+  "GarageModel": {
+    "Archetype": "garage.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "orientation": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  }
+}

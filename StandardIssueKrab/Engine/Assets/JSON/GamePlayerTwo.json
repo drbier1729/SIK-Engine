@@ -1,0 +1,41 @@
+{
+  "Name": "GamePlayer_2",
+  "Components": {
+    "Transform": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "RigidBody": {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "is_trigger": false,
+      "is_enabled": true,
+      "use_aabb_as_collider": true,
+      "motion_type": "Dynamic",
+      "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+      "mass": 100.0,
+      "gravity_scale": 1.0,
+      "linear_damping": 0.005,
+      "friction": 0.2,
+      "restitution": 0.5
+    },
+    "MeshRenderer": {
+      "mesh": "car.fbx",
+      "material": "car_2.mat"
+    },
+    "CarController": {
+      "speed": 2200.0,
+      "reverse_speed": 3000.0,
+      "angular_speed": 40.0,
+      "action_map_string": "GamePlayerTwoControls.json"
+    },
+    "Behaviour": {
+      "scripts": [
+        "car_script.lua",
+        "magnet_script.lua"
+      ]
+    },
+    "Health": {
+      "hp_max": 50
+    }
+  }
+}

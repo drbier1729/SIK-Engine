@@ -1,0 +1,31 @@
+{
+  "Files": [
+    {
+      "file": "TestComponent.json"
+    },
+    {
+      "file": "TestObject.json"
+    },
+    {
+      "file": "TestObject2.json"
+    },
+    {
+      "file": "PhongObject.json"
+    },
+    {
+      "file": "BlinnPhongObject.json"
+    },
+    {
+      "file": "BRDFObject.json"
+    },
+    {
+      "file": "GameBoxWood.json"
+    },
+    {
+      "file": "pipes.json"
+    },
+    {
+      "file": "EmptyFloorObject.json"
+    }
+  ]
+}

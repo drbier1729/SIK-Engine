@@ -1,0 +1,7 @@
+{
+  "Name": "TestComponent",
+  "Transform": {
+	  "position": [0, 0, 0]
+  },
+  "RigidBody": {}
+}

@@ -1,0 +1,382 @@
+{
+  "FloorObject": {
+    "Archetype": "FloorObject.json",
+    "Components": {
+      "Transform": {
+        "position": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "scale": [
+          200.0,
+          200.0,
+          200.0
+        ]
+      }
+    }
+  },
+  "BigCarEnemy_0": {
+    "Name": "BigCarEnemy_0",
+    "Archetype": "BigCarEnemy.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -20.0,
+          0.0,
+          -20.0
+        ]
+      }
+    }
+  },
+  "TurretBaseMA_0": {
+    "Name": "TurretBaseMA_0",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          20.0,
+          -0.5,
+          -20.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  },
+  "TurretEnemyMA_0": {
+    "Name": "TurretEnemyMA_0",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBaseMA_0",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "TurretBaseMA_2": {
+    "Name": "TurretBaseMA_2",
+    "Archetype": "TurretBase.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          52.0,
+          -0.5,
+          -56.0
+        ],
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  },
+  "TurretEnemyMA_2": {
+    "Name": "TurretEnemyMA_2",
+    "Archetype": "TurretEnemy.json",
+    "Components": {
+      "Attachment": {
+        "attached_to": "TurretBaseMA_2",
+        "follow": true,
+        "lock_orientation": false,
+        "pos_offset": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Behaviour": {
+        "scripts": [
+          "turret_enemy.lua"
+        ]
+      }
+    }
+  },
+  "Debris_0": {
+    "Name": "Debris_0",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_1": {
+    "Name": "Debris_1",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -45.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_2": {
+    "Name": "Debris_2",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -40.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_3": {
+    "Name": "Debris_3",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -35.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_4": {
+    "Name": "Debris_4",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -25.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_5": {
+    "Name": "Debris_5",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -20.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_6": {
+    "Name": "Debris_6",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -15.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_7": {
+    "Name": "Debris_7",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -10.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_8": {
+    "Name": "Debris_8",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          -5.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_9": {
+    "Name": "Debris_9",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          0.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_10": {
+    "Name": "Debris_10",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          5.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_11": {
+    "Name": "Debris_11",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          10.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_12": {
+    "Name": "Debris_12",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          15.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_13": {
+    "Name": "Debris_13",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          20.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_14": {
+    "Name": "Debris_14",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          25.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  },
+  "Debris_15": {
+    "Name": "Debris_15",
+    "Archetype": "Debris.json",
+    "Components": {
+      "RigidBody": {
+        "position": [
+          -50.0,
+          0.0,
+          30.0
+        ]
+      },
+      "Debris": {
+        "chase_speed": 10.0,
+        "max_chase_dist": 25.0
+      }
+    }
+  }
+}

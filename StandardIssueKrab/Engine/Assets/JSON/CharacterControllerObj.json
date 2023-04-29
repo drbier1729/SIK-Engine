@@ -1,0 +1,15 @@
+{
+  "Name": "CharacterControllerObj",
+  "Children": {
+
+  },
+
+  "Components": {
+    "TestComp": {},
+
+    "MeshRenderer": {
+      "mesh": "Sphere",
+      "material": "solid_red.mat"
+    }
+  }
+}

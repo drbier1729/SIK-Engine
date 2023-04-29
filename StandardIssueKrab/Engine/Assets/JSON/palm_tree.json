@@ -1,0 +1,44 @@
+{
+    "Name": "palm_tree",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0007985830307006836,
+        0.5266313552856445,
+        5.665379524230957
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "palm_tree.fbx",
+    "material": "muscle_beach_props_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        0.0007985830307006836,
+        0.5266313552856445,
+        5.665379524230957
+    ],
+    "orientation": [
+        0,
+        0,
+        0
+    ],
+    "aabb_halfwidths": [
+        1.375,
+        6.679798603057861,
+        1.375
+    ],
+    "motion_type": "Static"
+}
+    }
+}

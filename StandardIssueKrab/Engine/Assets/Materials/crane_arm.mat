@@ -1,0 +1,4 @@
+{
+  "base_color_texture": "crane_tower_base_color.png",
+  "shader": "lit"
+}

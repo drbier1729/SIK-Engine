@@ -1,0 +1,39 @@
+{
+    "Name": "tire_stack_2",
+    "Components": {
+    "Transform":{
+    "position": [
+        0.0,
+        0.0,
+        0.5
+    ],
+    "orientation": [
+        0.0,
+        -0.0,
+        0.0
+    ],
+    "scale": [
+        1.0,
+        1.0,
+        1.0
+    ]
+},
+    "MeshRenderer":{
+    "mesh": "tire_stack_2.fbx",
+    "material": "tire_mat.mat"
+},
+    "RigidBody":{
+    "position": [
+        0.0,
+        0.0,
+        0.5
+    ],
+    "aabb_halfwidths": [
+        0.75,
+        0.5,
+        0.75
+    ],
+    "motion_type": "Static"
+}
+    }
+}

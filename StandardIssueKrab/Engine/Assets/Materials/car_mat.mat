@@ -1,0 +1,15 @@
+{
+    "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+    ],
+    "specular": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "glossiness": 0.5,
+    "base_color_texture": "car_tex.png",
+    "shader": "lit"
+}

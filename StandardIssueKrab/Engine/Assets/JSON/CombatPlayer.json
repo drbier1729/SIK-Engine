@@ -1,0 +1,36 @@
+{
+    "Name": "CombatPlayer",
+    "Components": {
+        "Transform": {
+            "position": [ 0.0, 10.0, 0.0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        },
+      "RigidBody": {
+        "position": [ 0.0, 10.0, 0.0 ],
+        "is_trigger": false,
+        "is_enabled": true,
+        "use_aabb_as_collider": true,
+        "motion_type": "Dynamic",
+        "aabb_halfwidths": [ 1.0, 1.0, 1.0 ],
+        "mass": 100.0,
+        "gravity_scale": 1.0,
+        "linear_damping": 0.005,
+        "friction": 0.2,
+        "restitution": 0.5
+      },
+        "MeshRenderer": {
+            "mesh": "car.fbx",
+            "material": "car.mat"
+        },
+        "Behaviour": {
+            "scripts": [
+                "combat_player.lua"
+            ]
+        },
+        "Player": {},
+        "CameraFollow": {},
+        "Health": {
+            "health": 10
+        }
+    }
+}

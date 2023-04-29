@@ -1,0 +1,160 @@
+{
+  "Object001": {
+        "Name": {
+            "name": "Lightning McQueen"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Children": {
+            "child": [
+              "Object002",
+              "Object003",
+              "Object004",
+              "Object005"
+            ]
+        }        
+  },  
+  "Object002": {
+        "Name": {
+            "name": "Tire_FL"
+        },
+        "Transform": {
+            "position": [
+               -1.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Parent" : {
+          "name": "Object001"
+        }
+  },
+  "Object003": {
+        "Name": {
+            "name": "Tire_FR"
+        },
+        "Transform": {
+            "position": [
+                1.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Parent" : {
+          "name": "Object001"
+        }       
+  },
+  "Object004": {
+        "Name": {
+            "name": "Tire_RL"
+        },
+        "Transform": {
+            "position": [
+               -1.0,
+               -1.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Parent" : {
+          "name": "Object001"
+        }     
+  },
+  "Object005": {
+        "Name": {
+            "name": "Tire_RR"
+        },
+        "Transform": {
+            "position": [
+                1.0,
+               -1.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Parent" : {
+          "name": "Object001"
+        }       
+  },
+  "Object006": {
+        "Name": {
+            "name": "Hudson Hornet"
+        },
+        "Transform": {
+            "position": [
+               10.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }      
+  }
+}
